@@ -4,10 +4,10 @@ This is for VJZ Employees only.
 
 <dl>
   <form action="/action_page.php">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
+  <label for="Username">Username:</label>
+  <input type="text" id="Username" name="Username"><br><br>
+  <label for="Password">Password:</label>
+  <input type="text" id="Password" name="Password"><br><br>
   <input type="submit" value="Submit">
   </form>
 </dl>
