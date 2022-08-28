@@ -6,7 +6,7 @@ Name: _________
 
 Occupation: Roblox Scripter
 
-Rank: Senior Developer    
+Rank: Senior Developer
 
 ## Settings
 
