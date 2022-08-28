@@ -2,7 +2,7 @@
 <details>
   <summary> Username and Password [ONLY VISABLE TO YOU] </summary>
   
-  Username: _________
+  Username: _________  
   Password: 1234
   
 </details>
