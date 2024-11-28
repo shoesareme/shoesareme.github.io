@@ -8,6 +8,6 @@ Uhh, this isn't really a good way to do this... but I don't really know any bett
 
 Click [here](/mathlogic/blog/blog1) to read about it.
 
-## Blog 2 - Ordinal Challenge
+## Blog 2 - Ordinal Programming Challenge
 
 Click [here](/mathlogic/blog/blog2) to read about it.
