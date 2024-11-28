@@ -1,10 +1,5 @@
-# Information
+# Welcome!
 
-The following is a test site. 
-This site tests the following:  
+Uhh... you shouldn't really be here. This formerly was the test site for VJZ. That has been migrated to /test-site.
 
-Employee general page.  
-Programming Language Compatability.  
-Permission System.  
-
-Also note that the URLs used should not reflect the real URLs.
+If you are here for my mathematical logic blog thing, check out [insert here lol].
