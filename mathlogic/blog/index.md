@@ -6,4 +6,4 @@ Uhh, this isn't really a good way to do this... but I don't really know any bett
 
 ## Blog 1 - First blog!!!
 
-Click [here](/mathlogic/blog/blog1) to read about it.
+Click [here](/mathlogic/blog/blog1.md) to read about it.
