@@ -56,3 +56,7 @@ This was inspired by both [this](https://codegolf.stackexchange.com/questions/23
 ## Some of my attempts
 
 I will update this as I go.
+
+## Update (12/22/2024)
+
+I completely forgot about this. Whoopsies! I may revisit it soon, but I am busy with other things currently.
