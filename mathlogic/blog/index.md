@@ -11,3 +11,7 @@ Click [here](/mathlogic/blog/blog1) to read about it.
 ## Blog 2 - Ordinal Programming Challenge (11/28/2024)
 
 Click [here](/mathlogic/blog/blog2) to read about it.
+
+## Blog 3 - Motivation (12/26/2024)
+
+Click [here](/mathlogic/blog/blog3) to read about it.
