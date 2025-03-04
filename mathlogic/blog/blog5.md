@@ -6,7 +6,7 @@ I've submitted a paper to high school journals. The process has been... interest
 
 I will link the paper in the projects section once I get it published somewhere (if I hopefully ever do). But, here is a quick summary of the contents.
 
-Many people have studied $$\omega$$ and $$\omega_{1}$$. Fewer have delved into $\omega^{*}$. However, to my knowledge, almost no one has considered an extension of $\omega^{*}$ such that it is "faithful" to $$\omega_{1}$$. Consider the following "analogy" of sorts.
+Many people have studied $$\omega$$ and $$\omega_{1}$$. Fewer have delved into $$\omega^{*}$$. However, to my knowledge, almost no one has considered an extension of $$\omega^{*}$$ such that it is "faithful" to $$\omega_{1}$$. Consider the following "analogy" of sorts.
 
 $$
 \omega \rightarrow \omega_{1}
