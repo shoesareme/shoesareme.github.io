@@ -15,3 +15,8 @@ Click [here](/mathlogic/blog/blog2) to read about it.
 ## Blog 3 - Motivation (12/26/2024)
 
 Click [here](/mathlogic/blog/blog3) to read about it.
+
+## Blog 4 - AI (12/27/2024-3/3/2025)
+
+Click [here](/mathlogic/blog/blog4) to read about it.
+IMPORTANT: This blog is largely incomplete and is missing information. Kinda like a failed experiement.
