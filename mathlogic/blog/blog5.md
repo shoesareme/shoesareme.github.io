@@ -6,20 +6,21 @@ I've submitted a paper to high school journals. The process has been... interest
 
 I will link the paper in the projects section once I get it published somewhere (if I hopefully ever do). But, here is a quick summary of the contents.
 
-Many people have studied $\omega$ and $\omega_{1}$. Fewer have delved into $\omega^{\*}$. However, to my knowledge, almost no one has considered an extension of $\omega^{\*}$ such that it is "faithful" to $\omega_{1}$. Consider the following "analogy" of sorts.
+Many people have studied $\omega$ and $\omega_{1}$. Fewer have delved into $\omega^{*}$. However, to my knowledge, almost no one has considered an extension of $\omega^{*}$ such that it is "faithful" to $\omega_{1}$. Consider the following "analogy" of sorts.
 
 $$
 \omega \rightarrow \omega_{1}
 $$
+
 $$
-\omega^{\*} \rightarrow ???
+\omega^{*} \rightarrow ???
 $$
 
-Of course, an obvious candidate is $\omega^{\*}_{1}$. But there are issues with it. Additionally, other candidates may be better. One such is a tree like structure. I am too tired to discuss the details, so I will link the paper whenever possible.
+Of course, an obvious candidate is $\omega^{*}_{1}$. But there are issues with it. Additionally, other candidates may be better. One such is a tree like structure. I am too tired to discuss the details, so I will link the paper whenever possible.
 
 I guess I will talk about a result I proved.
 
-**Theorem.** For any ordinal $\alpha$ of the Cantor Normal Form $\omega^{\beta_{1}}c_{1}+\omega^{\beta_{2}}c_{2}+\dots+\omega^{\beta_{n}}c_{n}$, the reversal $\alpha^{\*}$ is equal to $(\omega^{\beta_{n}}c_{n})^{*}+\dots+(\omega^{\beta_{2}}c_{2})^{\*}+(\omega^{\beta_{1}}c_{1})^{\*}$.
+**Theorem.** For any ordinal $\alpha$ of the Cantor Normal Form $\omega^{\beta_{1}}c_{1}+\omega^{\beta_{2}}c_{2}+\dots+\omega^{\beta_{n}}c_{n}$, the reversal $\alpha^{*}$ is equal to $(\omega^{\beta_{n}}c_{n})^{*}+\dots+(\omega^{\beta_{2}}c_{2})^{*}+(\omega^{\beta_{1}}c_{1})^{*}$.
 
 _Proof Outline._ Basically, if you reverse each individual term, and reverse the order of the terms, you get the same thing as reversing the entire thing at once. Argument formally follows from induction (hopefully). $\Box$
 
