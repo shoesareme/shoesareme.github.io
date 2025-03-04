@@ -20,3 +20,7 @@ Click [here](/mathlogic/blog/blog3) to read about it.
 
 Click [here](/mathlogic/blog/blog4) to read about it.
 IMPORTANT: This blog is largely incomplete and is missing information. Kinda like a failed experiement.
+
+## Blog 5 - First Publication Soon? (3/3/2025)
+
+Click [here](/mathlogic/blog/blog5) to read about it.
