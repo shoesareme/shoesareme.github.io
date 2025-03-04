@@ -4,4 +4,4 @@ This is where I will add some of my projects such as explanations and research p
 
 ## Research Papers
 
-Properties of Extensions of the Order Type of the Non-Positive Integers
+Properties of Extensions of the Order Type of the Non-Positive Integers. [Linked here](/mathlogic/projects/PEOT)
