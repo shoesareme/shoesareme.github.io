@@ -39,3 +39,5 @@ Now, do not get me wrong, Dr. John is a really nice and chill dude. I can see hi
 ## Updates
 
 If anything else happens, I'll update here. If you are interested in this paper for whatever reason, email teammcpro3@gmail.com. 
+
+Update 1: So, I've submitted to a student journal a while back. The things is, the submission status date has come and there is no email (haven't gotten one in four days). What do I even do? I guess I will assume I got rejected and submit elsewhere.
