@@ -4,6 +4,10 @@
 
 Uhh, this isn't really a good way to do this... but I don't really know any better way.
 
+## Blog 6 - Theory of Concatenation (3/7/2025) [WIP]
+
+Click [here](/mathlogic/blog/blog6) to read about it.
+
 ## Blog 5 - First Publication Soon? (3/3/2025)
 
 Click [here](/mathlogic/blog/blog5) to read about it.
