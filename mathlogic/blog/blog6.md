@@ -30,6 +30,12 @@ $$
 \forall a^{\prime}, b^{\prime}, c^{\prime}, d^{\prime} (a^{\prime} \neq c^{\prime} \vee b^{\prime} \neq d^{\prime} \rightarrow a^{\prime} + b^{\prime} \neq c^{\prime} + d^{\prime}) \quad \textrm{Uniqueness Property}
 $$
 
+There is one special atomic string, $$\varepsilon^{\prime}$$, which is the empty string. We will define this to be different than any of the $$s^{\prime}_{n}$$ atomic strings as it has fundamental different properties. Namely,
+
+$$
+\forall n^{\prime} (n^{\prime} + \varepsilon^{\prime} = \varepsilon^{\prime} + n^{\prime} = n^{\prime})
+$$
+
 We want concatenation to be associative (but not communative!). I am not going to bother to define parenthesis, this is not Principia Mathematica. This is not Metamath.
 
 $$
@@ -48,6 +54,8 @@ $$
 
 ## Some Basic Theorems and Functions
 
+Functions will work in terms of concentation. Namely, a general function $$f : Str \rightarrow Str$$ takes in strings and gives back strings. We can define $$\textrm{CUT}$$ and $$\textrm{SEE}$$ with this as well (although the gurauntee that these functions work is axiomatic in nature).
+
 We can define the natural numbers as follows. Let $$0^{\prime}$$ be an atomic string. In fact, just let all the natural numbers be an atomic string. There is probably some clever recursive thing you could do to stop yourself from having infinite constants, but who cares? I don't. Now, define the successor relation be defined as follows (a hard coded approach):
 
 $$
@@ -56,4 +64,4 @@ S(1^{\prime}) = 2^{\prime} \\
 \cdots
 $$
 
-[TO BE CONTINUED]
+We can define an analogous predecesor function. This allows us to achieve "loops" 
