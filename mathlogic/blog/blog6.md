@@ -43,9 +43,17 @@ If $$x^{\prime}$$ is of the form $$s^{\prime}_{n} + a^{\prime}$$, then $$\textrm
 Let an alphabet be a collection denoted as follows:
 
 $$
-\Sigma^{\prime} = s^{\prime}_{n} + s^{\prime}_{m} + ...
+\Sigma^{\prime} = s^{\prime}_{n} + s^{\prime}_{m} + \cdots
 $$
 
 ## Some Basic Theorems and Functions
 
-We can define the natural numbers as follows. [TO BE CONTINUED]
+We can define the natural numbers as follows. Let $$0^{\prime}$$ be an atomic string. In fact, just let all the natural numbers be an atomic string. There is probably some clever recursive thing you could do to stop yourself from having infinite constants, but who cares? I don't. Now, define the successor relation be defined as follows (a hard coded approach):
+
+$$
+S(0^{\prime}) = 1^{\prime} \\
+S(1^{\prime}) = 2^{\prime} \\
+\cdots
+$$
+
+[TO BE CONTINUED]
