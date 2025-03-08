@@ -38,8 +38,14 @@ $$
 
 Let us denote $$\textrm{CUT}(x^{\prime})$$ and $$\textrm{SEE}(x^{\prime})$$ as the operations for cutting off the first element and seeing the first element as follows.
 
-If $$x^{\prime}$$ is of the form $$s^{\prime}_{n} + a^{\prime}$$, then $$\textrm{CUT}(x^{\prime})=a$$ and $$\textrm{SEE}(x^{\prime})=s^{\prime}_{n}$$.
+If $$x^{\prime}$$ is of the form $$s^{\prime}_{n} + a^{\prime}$$, then $$\textrm{CUT}(x^{\prime})=a^{\prime}$$ and $$\textrm{SEE}(x^{\prime})=s^{\prime}_{n}$$.
 
-## Some Basic Theorems
+Let an alphabet be a collection denoted as follows:
 
-[TBD]
+$$
+\Sigma^{\prime} = s^{\prime}_{n} + s^{\prime}_{m} + ...
+$$
+
+## Some Basic Theorems and Functions
+
+We can define the natural numbers as follows. [TO BE CONTINUED]
