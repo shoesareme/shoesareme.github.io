@@ -64,4 +64,4 @@ S(1^{\prime}) = 2^{\prime} \\
 \cdots
 $$
 
-We can define an analogous predecesor function. This allows us to achieve "loops" 
+We can define an analogous predecesor function. This allows us to achieve "loops". From here, recursion can be used and many other techniques. There is probably some proof for the strength of this system, but that will be left as an exercise to the reader. Overall, interesting system. Set theory is still better.
