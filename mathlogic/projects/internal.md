@@ -3,7 +3,7 @@
 > **Warning! This is for internal use only! You should not be here unless you have permission!**
 
 ## Purpose
-This repository contains some of my research that is not fit for publication due to a variety of reasons (i.e., lack of rigor). These projects are still important for measuring my growth as a person so I am going to have a link to access them here. You must be whitelisted to be able to access this.
+This repository contains some of my research that is not fit for publication due to a variety of reasons (i.e., lack of rigor). These projects are still important for measuring my growth as a person so I am going to have a link to access them here. You must be whitelisted to be able to access this. This also serves as a database for some of my other research projects.
 
 ## Access
 [Database Here](https://drive.google.com/drive/folders/1OXQIMZhgb1x2PD3zKnuf0sUdlJ93bDwh)
