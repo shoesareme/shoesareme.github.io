@@ -44,7 +44,7 @@ From what I have gathered, it seems that Howard believes in conservation a bit t
 
 Originally, I was about to propose a theorem where the sum of everything remains constant and all equations are the same or whatever to try to match his level of crazy, when I found myself doomscrolling through his book. Then, I encountered something that made me realize that I had no chance. Dear readers, I present to you:
 
-**Theorem (Howard).** $$1^{3} = |\pi|$$
+**Theorem (Howard).** $$1^{3} = \|\pi\|$$
 
 I give up.
 
