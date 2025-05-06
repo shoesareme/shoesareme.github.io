@@ -50,13 +50,15 @@ I give up.
 
 ## Intentionally Wrong
 
-To be added.
+### Fictional Googology
+
+Perhaps one of the most interesting things I've ever encountered.
 
 ## Computer Generated
 
 ### ChatGPT
 
-TO be added.
+To be added.
 
 ### MathGen
 
