@@ -1,5 +1,7 @@
 # MEGA BLOG - Fake/Pseudo-Mathematics (Blog 7)
 
+NOTE: I am currently unmotivated to do this. I will pick back up on this later.
+
 ## Introduction
 
 I am trying something new here. Basically, this blog will be continously updated since I don't want to keep making new blogs on this same subject. 
@@ -52,7 +54,7 @@ I give up.
 
 ### Fictional Googology
 
-Perhaps one of the most interesting things I've ever encountered.
+Perhaps one of the most interesting things I've ever encountered. There a lot of different interpretations, however.
 
 ## Computer Generated
 
