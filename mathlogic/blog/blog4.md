@@ -36,7 +36,7 @@ _Justification_: This establishes a minimal distinction in the universe of disco
 
 ---
 
-This is an interesting start. Again, there is an obsession with "entities" (c.f. update 3/3/2025). We have $$\emptyset$$ and $$\bullet$$. Not much to commentate here.
+This is an interesting start. Again, there is an obsession with "entities" (c.f. update 3/3/2025). We have $$\varnothing$$ and $$\bullet$$. Not much to commentate here.
 
 ### Axiom 2 (Primitive Combination)
 
@@ -46,7 +46,7 @@ _Justification_: This introduces a basic operation of construction or combinatio
 
 ---
 
-We can see were GPT wants to take this. Indeed, we will soon see things built up using the previous entities, such as $$\[\bullet \diamondsuit \bullet\]$$.
+We can see were GPT wants to take this. Indeed, we will soon see things built up using the previous entities, such as $$[\bullet \diamondsuit \bullet]$$.
 
 ### Axiom 3 (Distinguishability of Fusions)
 
@@ -59,7 +59,7 @@ _Justification_: This makes all fusions uniquely determined by their components,
 
 **Proposition.** _The $$\diamondsuit$$ operator is not communative._
 
-_Proof._ Of course, we can't prove it in the system itself. There is so far no such thing as "communativity". But from a meta prespective, it is quite easy to find a counter example. Suppose $$A \neq B$$. Therefore, by **Axiom 3**, $$\[A \diamondsuit B\] \neq \[B \diamondsuit A\]$$ (set $$A = D$$ and $$B = C$$). $$\Box$$
+_Proof._ Of course, we can't prove it in the system itself. There is so far no such thing as "communativity". But from a meta prespective, it is quite easy to find a counter example. Suppose $$A \neq B$$. Therefore, by **Axiom 3**, $$[A \diamondsuit B] \neq [B \diamondsuit A]$$ (set $$A = D$$ and $$B = C$$). $$\Box$$
 
 ### Axiom 4 (Irreducibility of Primitives)
 
@@ -76,7 +76,7 @@ Not much to say here.
 
 All entities in the system are either primitive or formed via finite applications of the fusion operation on existing entities.
 
-_Justification_: This defines the universe: every object is either basic or constructed through finitely many applications of [◊].
+_Justification_: This defines the universe: every object is either basic or constructed through finitely many applications of `[◊]`.
 
 ---
 
@@ -96,6 +96,6 @@ This is literally the contrapositive of **Axiom 3**. Nice one, GPT.
 
 ### Quick Commentary
 
-Before we get into the theorems and definitions, I would like to give some thoughts. First, GPT came up with the name "fusion theory". But second, this system obviously resembles set theory. Specifically, the union operation. Now, you could interpret this theory as set theory with the empty set being the exact same and each different instance of $$\bullet$$ being a unique singleton, along with the union operation as $$\diamondsuit$$, but that is ugly. Instead, I think it is better with just one singleton (or perhaps any non-empty set!) to replace $$\bullet$$ and to make $$\[A \diamondsuit B\]$$ be equivalent to $$(A, B)$$ in a tuple. I believe this is an equivalent definition (just run through all the axioms, seems to line up). 
+Before we get into the theorems and definitions, I would like to give some thoughts. First, GPT came up with the name "fusion theory". But second, this system obviously resembles set theory. Specifically, the union operation. Now, you could interpret this theory as set theory with the empty set being the exact same and each different instance of $$\bullet$$ being a unique singleton, along with the union operation as $$\diamondsuit$$, but that is ugly. Instead, I think it is better with just one singleton (or perhaps any non-empty set!) to replace $$\bullet$$ and to make $$[A \diamondsuit B]$$ be equivalent to $$(A, B)$$ in a tuple. I believe this is an equivalent definition (just run through all the axioms, seems to line up). 
 
 Anyways, it is getting late and I need to study for a test. I'll be back updating this sometime soon. Check the main page for more details.
