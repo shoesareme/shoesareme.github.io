@@ -4,6 +4,12 @@
 
 Uhh, this isn't really a good way to do this... but I don't really know any better way.
 
+## Updates
+
+I am working on blog 4 again, and I am unmotivated on blog 7. 
+
+Unrelated, I wrote a paper involving machine learning and it got accepted into a conference. I will be gone for two weeks or more.
+
 ## MEGA Blog 7 - Pseudo-Mathematics (4/26/2025)
 
 Click [here](/mathlogic/blog/blog7) to read about it. This blog will be updated. Currently a WIP.
