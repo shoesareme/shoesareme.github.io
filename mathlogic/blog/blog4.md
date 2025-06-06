@@ -98,4 +98,87 @@ This is literally the contrapositive of **Axiom 3**. Nice one, GPT.
 
 Before we get into the theorems and definitions, I would like to give some thoughts. First, GPT came up with the name "fusion theory". But second, this system obviously resembles set theory. Specifically, the union operation. Now, you could interpret this theory as set theory with the empty set being the exact same and each different instance of $$\bullet$$ being a unique singleton, along with the union operation as $$\diamondsuit$$, but that is ugly. Instead, I think it is better with just one singleton (or perhaps any non-empty set!) to replace $$\bullet$$ and to make $$[A \diamondsuit B]$$ be equivalent to $$(A, B)$$ in a tuple. I believe this is an equivalent definition (just run through all the axioms, seems to line up). I want to point out how this is similar to something I wrote later in blog 6. However, this system is weaker I believe. In fact, I heavily believe this is computable. I am too lazy to prove it right now.
 
-Anyways, it is getting late and I need to study for a test. I'll be back updating this sometime soon. Check the main page for more details.
+### Definition 1 (Entity)
+
+An entity is either a primitive (such as `⊘` or `●`) or a fusion `[A ◊ B]` of two entities `A` and `B`.
+
+_Justification_: This formally distinguishes the domain we are reasoning about. All elements discussed henceforth are entities under this definition.
+
+---
+
+One common theme with GPT is that often it blurs the difference between definitions and axioms. Although, this is a topic that I would like to discuss in a later blog.
+
+### Definition 2 (Rank)
+
+The rank of an entity is defined recursively as follows:
+
+The rank of a primitive entity (e.g., `⊘`, `●`) is `0`.
+
+The rank of `[A ◊ B]` is `1 + max(rank(A), rank(B))`.
+
+_Justification_: Rank serves as a measure of constructional depth or complexity of an entity.
+
+---
+
+So here is a clear violation of my prompt (because we are working with addition and such). But honestly I don't care.
+
+### Theorem 1 (Finiteness of Rank)
+
+Every entity has a finite rank.
+
+Proof:
+We prove this by induction on the construction of entities.
+
+Base Case:
+Primitive entities (`⊘`, `●`) are given rank `0`, which is finite.
+
+Inductive Step:
+Assume that for entities `A` and `B`, `rank(A)` and `rank(B)` are finite (by inductive hypothesis).
+Then `rank([A ◊ B]) = 1 + max(rank(A), rank(B))`, which is also finite since addition and max preserve finiteness.
+
+∴ Every entity constructed via finitely many fusions from primitives has finite rank. □
+
+---
+
+I'm surprised GPT didn't evoke **Axiom 5** since it made sure to mention finitness in there. 
+
+### Definition 3 (Atomicity)
+
+An entity is _atomic_ if it is not a fusion; i.e., it is a primitive entity.
+
+_Justification_: This gives us a way to refer to "non-composite" entities, distinct from those built from fusion.
+
+---
+
+Okay so this is completely useless but I decided to include it to make fun of GPT. Sorry.
+
+### Definition 4 (Deconstruction)
+
+If an entity `X` is of the form `[A ◊ B]`, then we define:
+
+`head(X) = A`
+
+`tail(X) = B`
+
+Otherwise, these are undefined.
+
+_Justification_: Introduces the inverse-like ability to access components of a constructed entity.
+
+---
+
+Okay. Now, I believe this is equivalent to the system defined in blog 6. I believe the head and tail operations encapsulate $$\textrm{CUT}$$ and $$\textrm{SEE}$$, although I am again far too lazy to prove it.
+
+### Theorem 2 (Uniqueness of Deconstruction)
+
+If `X = [A ◊ B]`, then `head(X) = A` and `tail(X) = B`, and no other pair `(C, D)` exists such that `X = [C ◊ D]` with (`C ≠ A` or `D ≠ B`).
+
+Proof:
+This follows directly from Axiom 6 (Fusion Uniqueness Principle), which states that `[A ◊ B] = [C ◊ D]` implies `A = C` and `B = D`.
+
+Therefore, `A` and `B` are uniquely recoverable from `X`. □
+
+---
+
+I'm not sure what the second part in the original statement is for, it should really be in the proof section.
+
+I will continue this when I have more time.
