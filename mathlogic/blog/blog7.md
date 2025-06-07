@@ -60,6 +60,10 @@ Perhaps one of the most interesting things I've ever encountered. There a lot of
 
 This is interesting. I'm not sure if it can be considered "fictional googology" as the author may believe it to be real? Anyways, the quality of this paper is like none other on this list. It has great diagrams, interesting proofs, and clear definitions. Let's jump right in. Honestly? It deserves its own blog.
 
+#### The Argument
+
+To be added
+
 ## Computer Generated
 
 ### ChatGPT
