@@ -1,6 +1,10 @@
-# Theory of Concatenation Mathematical Foundation (3/7/2025)
+# String Mathematical Foundation (3/7/2025)
 
-So, I found a reddit post talking about mathematical cranks (post for another day), and they mentioned the "theory of concatenation" as a mathematical foundation. I could find literally nothing about it as a foundation, so I decided to do it myself.
+_Originally titled: Theory of Concatenation Mathematical Foundation_
+
+~~So, I found a reddit post talking about mathematical cranks (post for another day), and they mentioned the "theory of concatenation" as a mathematical foundation. I could find literally nothing about it as a foundation, so I decided to do it myself.~~
+
+Update: Well, I found it! Yeah, I just remember that I found it awhile back while researching something else. So I guess this blog is useless. Well, it is still an interesting exercise I would say.
 
 ## Naive Intuition
 
