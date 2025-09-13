@@ -3,7 +3,14 @@
 My new website which will mainly just host my random stuff. This website is under construction.
 
 [blog](blog/)
+
 [project](projects/)
+
+Test $$\omega^{2}$$.
+
+$$$
+\omega + 42
+$$$
 
 ## About Me
 
