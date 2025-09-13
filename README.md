@@ -8,9 +8,9 @@ My new website which will mainly just host my random stuff. This website is unde
 
 Test $$\omega^{2}$$.
 
-$$$
+$$
 \omega + 42
-$$$
+$$
 
 ## About Me
 
