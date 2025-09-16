@@ -4,8 +4,8 @@ There's probably a better way to do this, but this suffices for now. I originall
 
 ## Blog 2 - In Regards to My Previous Website (9/13/2025)
 
-Click [here](/blog2/).
+Click [here](https://shoesareme.github.io/blog/blog2/).
 
 ## Blog 1 - About Me (9/13/2025)
 
-Click [here](/blog1/).
+Click [here](https://shoesareme.github.io/blog/blog1/).

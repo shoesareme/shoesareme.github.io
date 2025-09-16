@@ -2,4 +2,4 @@
 
 Under construction.
 
-For now, see my [lectures](lectures).
+For now, see my [lectures](https://shoesareme.github.io/projects/lectures/).
