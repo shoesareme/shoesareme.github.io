@@ -2,4 +2,4 @@
 
 Under construction.
 
-For now, see my [lectures](projects/lectures/).
+For now, see my [lectures](/lectures/).

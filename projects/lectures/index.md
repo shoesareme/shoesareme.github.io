@@ -1,7 +1,7 @@
 # Lectures
 
-[Math Lectures](projects/lectures/math/)
+[Math Lectures](/math/)
 
-[Computer Team Lectures](projects/lectures/computerteam/)
+[Computer Team Lectures](/computerteam/)
 
-[Code++ Lectures](projects/lectures/codeplusplus/)
+[Code++ Lectures](/codeplusplus/)
