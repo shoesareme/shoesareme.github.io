@@ -1,0 +1,11 @@
+# Math Lectures
+
+## Infinitary Combinatorics (8/7/2025)
+
+The materials found here were for a guest lecture at a TJVMT SARML session. As such, the materials found within this lecture feature HEAVY oversimplification to make it more understandable for a high school student. Therefore, it is not intended as a reliable source for serious study.
+
+[Slides](projects/lectures/math/infinitarycombo/slides.pdf)
+
+[PDF (Short)](projects/lectures/math/infinitarycombo/short.pdf)
+
+[PDF (Long)](projects/lectures/math/infinitarycombo/long.pdf)

@@ -1,16 +1,8 @@
 # shoesareme.github.io
 
-My new website which will mainly just host my random stuff. This website is under construction.
-
-[blog](blog/)
+My new website which will mainly just host my random stuff. This website is under heavy construction.
 
 [project](projects/)
-
-Test $$\omega^{2}$$.
-
-$$
-\omega + 42
-$$
 
 ## About Me
 
