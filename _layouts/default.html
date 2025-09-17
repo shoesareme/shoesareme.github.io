@@ -37,6 +37,8 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+
+        <button id="myButton">Go Back</button>
       </header>
       <section>
 
@@ -48,5 +50,6 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>document.getElementById("myButton").addEventListener("click", function() {window.history.back();});</script>
   </body>
 </html>
