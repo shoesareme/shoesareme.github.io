@@ -20,4 +20,4 @@ These comprise very short one-off lectures that were written purely for fun.
 
 This was written to help a friend.
 
-[PDF](https://shoesareme.github.io/projects/lectures/math/infinitarycombo/freemonoids.pdf)
+[PDF](https://shoesareme.github.io/projects/lectures/math/freemonoids.pdf)
