@@ -1,4 +1,4 @@
-# About Me (9/13/2025)
+# Blog 1 - About Me (9/13/2025)
 
 Hey! My name is Jason. As of writing this, I am a high school student at TJHSST. I will be graduating in 2027.
 
