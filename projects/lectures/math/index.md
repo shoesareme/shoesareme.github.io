@@ -16,7 +16,7 @@ The materials found here were for a guest lecture at a TJVMT SARML session. As s
 
 These comprise very short one-off lectures that were written purely for fun.
 
-### Multivariable Calculus Chain Rule (9/26/2025)
+### Multivariable Calculus Chain Rule (9/25/2025)
 
 I wrote this to help my friends (and myself) study for a test.
 
