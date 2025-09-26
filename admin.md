@@ -17,6 +17,7 @@ i forgot
 ## to do
 
 - blog 3 (also fix that one mistake in there)
+- table of contents and stuff [important]
 - add tags to blogs or something organized
 - add java lectures
 - add all the other sections
