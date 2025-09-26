@@ -16,6 +16,12 @@ The materials found here were for a guest lecture at a TJVMT SARML session. As s
 
 These comprise very short one-off lectures that were written purely for fun.
 
+### Multivariable Calculus Chain Rule (9/26/2025)
+
+I wrote this to help my friends (and myself) study for a test.
+
+[PDF](https://shoesareme.github.io/projects/lectures/math/chainrulemulti.pdf)
+
 ### Free Monoids (9/9/2025)
 
 This was written to help a friend.
