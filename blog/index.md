@@ -9,3 +9,11 @@ Click [here](https://shoesareme.github.io/blog/blog2).
 ## Blog 1 - About Me (9/13/2025)
 
 Click [here](https://shoesareme.github.io/blog/blog1).
+
+## Unfinished
+
+I'm only including this so that I have an easy link to access it.
+
+### Blog 3 - A Discussion on Infinite Multiset Cardinality (9/18/2025 UNDER CONSTRUCTION)
+
+Unfinished. Click [here](https://shoesareme.github.io/blog/blog3)

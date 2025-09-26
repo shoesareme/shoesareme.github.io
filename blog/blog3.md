@@ -1,4 +1,4 @@
-# Blog 3 - A Discussion on Infinite Multiset Cardinality (9/18/2025) UNDER CONSTRUCTION
+# Blog 3 - A Discussion on Infinite Multiset Cardinality (9/18/2025)
 
 I want to discuss a paper about *multisets* that I read awhile back. Specifically, the idea of the cardinality of infinite multisets. So, I want to cover some information about multisets, a review and interpretation of the paper, and my own ideas regarding this concept. The paper is titled "Infinite multisets: Basic properties and cardinality" by Milen V. Velev. All contents of this blog are adapted or in direct response to that paper.
 
@@ -44,7 +44,17 @@ The paper proceeds to provide a definition for the cartesian product, domain, ra
 
 ### Proper Cardinality
 
-The paper itself defines domain and range for relations on multisets, we will not be doing that and we will be going straight into functions. Simply put, a relation $$f$$ is a function if and only if for every element $$[a]_{r}$$ in $$\textrm{Dom} f$$, there exists exactly one element $$[b]_{l}$$ in $$\textrm{Ran} f$$ such that $$[a,b]_{r,l}$$ is in $$f$$ with the pair occuring $$m_{1}(a,b)$$ times. [^2]
+The paper itself defines domain and range for relations on multisets, we will not be doing that and we will be going straight into functions. Simply put, a relation $$f$$ is a function if and only if for every element $$[a]_{r}$$ in $$\textrm{Dom} f$$, there exists exactly one element $$[b]_{l}$$ in $$\textrm{Ran} f$$ such that $$[a,b]_{r,l}$$ is in $$f$$ with the pair occuring $$m_{1}(a,b)$$ times. [^2] Let $$A$$ and $$B$$ be multisets for all the following definitions.
+
+**Definition.** The multiset function $$f$$ is said to be m-injective if and only if $$f : A^{*} \rightarrow B^{*}$$ is injective and $$\mu(A) \leq \mu(B)$$.
+
+**Definition.** The multiset function $$f$$ is said to be m-surjective if and only if $$f : A^{*} \rightarrow B^{*}$$ is surjective and $$\mu(A) \geq \mu(B)$$.
+
+**Definition.** The multiset function $$f$$ is said to be m-bijective if and only if $$f : A^{*} \rightarrow B^{*}$$ is bijective and $$\mu(A) = \mu(B)$$.
+
+From here, we can define cardinality as usual with m-injectivity now. I again recommend reading the actual paper for more in-depth explanations regarding this. Some interesting things arise.
+
+**Example.** Consider the set
 
 [^1]: Perhaps an abuse of notation, however functions will be treated like numbers in the sense that for functions $$f,g : X \rightarrow Y$$, we say that for some function $$h : Y \times Y \rightarrow Y$$, the notation $$h(f,g)$$ denotes the same as $$h_{f,g} : X \rightarrow Y$$ such that for every $$x \in X$$, $$h_{f,g}(x) = h(f(x),g(x))$$.
 
