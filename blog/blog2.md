@@ -1,4 +1,10 @@
-# Blog 2 - In Regards to My Previous Website (9/13/2025)
+# Blog 2 - My Journey (9/13/2025, updated 10/12/2025)
+
+> under construction sorry lol
+
+## Add stuff here
+
+## In Regards to My Previous Website
 
 I don't think a single person ever came across it, which makes me sleep easy. Truly, I had no idea what I was doing back then. Perhaps that is a sign that I grew a lot both as a person and a math enthusiast. But, I believe I should at least acknowledge it. Perhaps one day I'll grow more as a person and realize that nobody cares what I write so I shouldn't be afraid to post those old writings (after all, I'll probably cringe upon this in about a year[^1]), but for now I'll occasionally post highlights.
 
