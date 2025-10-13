@@ -1,3 +1,4 @@
+
 # Admin stuff
 
 There is nothing special here lol i just need a place with fast links to everywhere.
@@ -16,7 +17,9 @@ i forgot
 
 ## to do
 
-- blog 3 (also fix that one mistake in there)
+- amend blog 2
+- blog 3
+- blog 4?
 - table of contents and stuff [important]
 - add tags to blogs or something organized
 - add java lectures
