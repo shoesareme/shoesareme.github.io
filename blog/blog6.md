@@ -1,0 +1,3 @@
+# Blog 6 - Response to "The true magnitude of Absolute Totality" (TBD)
+
+*The true magnitude of Absolute Totality* by Sergey Aytzhanov is an interesting paper that has a special place within my journey. Indeed, it is the paper that inspired me to learn how to read formal mathematics and to start my own journey in mathematical research. However, that is a story for another day. What I wanted to talk about here was solely the contents of the paper. I believe it was written by an enthusiast like myself. This is evident by the fact that I cannot find anything about the author online, and 

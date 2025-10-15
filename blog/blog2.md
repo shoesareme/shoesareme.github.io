@@ -2,7 +2,19 @@
 
 > under construction sorry lol
 
-## Add stuff here
+Text Here
+
+## Initial Encounter with $$\aleph$$s
+
+Text Here
+
+## Brief CS Detour
+
+Text Here
+
+## Revival
+
+Text Here
 
 ## In Regards to My Previous Website
 
