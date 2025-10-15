@@ -6,8 +6,12 @@ Since the early 2000s, Ashburn, a satellite city to DC, has urbanized rapidly an
 
 ## Paper Link
 
-DOI: 10.1109/Geoinformatics67279.2025.11173558
+DOI: [10.1109/Geoinformatics67279.2025.11173558](https://doi.org/10.1109/Geoinformatics67279.2025.11173558)
 
 ## Code
 
 Zhang, Jason, 2025, "Python Scripts for Landsat-8 Land Surface Temperature Data Processing and Visualization", https://doi.org/10.7910/DVN/IPPGCE, Harvard Dataverse, V1
+
+## Topics/Tags
+
+Applied CS

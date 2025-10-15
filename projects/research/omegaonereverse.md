@@ -7,3 +7,7 @@ There have been a great deal of study concerning ordinals and their properties. 
 ## Paper Link
 
 Will post preprint later.
+
+## Topics/Tags
+
+Set Theory, Order Theory
