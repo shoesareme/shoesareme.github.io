@@ -2,6 +2,13 @@
 
 Code++ is a club dedicated to learning advanced computer science topics. In the 2025-2026 school year, I serve the role of Vice-President within the club.
 
+## Time Complexity (10/17/2025)
+
+Standard lecture about time complexity formally (including details about $$\Omega$$ and $$\Theta$$).
+
+[Slides](https://shoesareme.github.io/projects/lectures/codeplusplus/timecomplexity.pdf)
+
+
 ## Lambda Calculus Guest Lecture (5/16/2025)
 
 This was a guest lecture for the Code++ club and centered around a friendly introduction into $$\lambda$$-calculus.

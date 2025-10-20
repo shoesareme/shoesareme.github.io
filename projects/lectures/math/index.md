@@ -12,9 +12,15 @@ The materials found here were for a guest lecture at a TJVMT SARML session. As s
 
 [PDF (Long)](https://shoesareme.github.io/projects/lectures/math/infinitarycombo/long.pdf)
 
-## Shorts
+## Shorts and Lecture Notes
 
-These comprise very short one-off lectures that were written purely for fun.
+These comprise very short one-off lectures that were written purely for fun. Alternatively, there are also notes that I've written for studying and classes.
+
+### Multivariable Calculus Chapter 16 Notes (Iteration 1, Ongoing)
+
+This was a unit of multivariable calculus concerning double and triple integrals. As of writing this, the unit is ongoing so the ntoes are incomplete. This is what I have temporarily:
+
+[PDF](https://shoesareme.github.io/projects/lectures/math/ch16notes.pdf)
 
 ### Multivariable Calculus Chain Rule (9/25/2025)
 
