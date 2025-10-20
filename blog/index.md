@@ -1,19 +1,9 @@
 # Blog Hub
 
-There's probably a better way to do this, but this suffices for now. I originally had a different blog also hosted on Github, but that has since been privated. 
+## Most Recent Blog: Blog 4 - A Discussion on Infinite Multiset Cardinality (10/19/2025)
 
-## Blog 2 - My Journey (9/13/2025)
+Click [here](https://shoesareme.github.io/blog/blog4)
 
-Click [here](https://shoesareme.github.io/blog/blog2).
+## Archive
 
-## Blog 1 - About Me (9/13/2025)
-
-Click [here](https://shoesareme.github.io/blog/blog1).
-
-## Unfinished
-
-I'm only including this so that I have an easy link to access it.
-
-### Blog 4 - A Discussion on Infinite Multiset Cardinality (9/18/2025 UNDER CONSTRUCTION)
-
-Unfinished. Click [here](https://shoesareme.github.io/blog/blog4)
+Here are most of my previous blogs: [archive](https://shoesareme.github.io/blog/archive).

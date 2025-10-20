@@ -1,4 +1,4 @@
-# Blog 2 - My Journey (9/13/2025, updated 10/12/2025)
+# Blog 2 - My Journey (9/13/2025, in the process of being updated)
 
 > under construction sorry lol
 

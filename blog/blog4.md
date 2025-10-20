@@ -1,8 +1,8 @@
-# Blog 4 - A Discussion on Infinite Multiset Cardinality (9/18/2025)
+# Blog 4 - A Discussion on Infinite Multiset Cardinality (9/18/2025-10/19/2025)
 
 I want to discuss a paper about *multisets* that I read awhile back. Specifically, the idea of the cardinality of infinite multisets. So, I want to cover some information about multisets, a review and interpretation of the paper, and my own ideas regarding this concept. The paper is titled "Infinite multisets: Basic properties and cardinality" by Milen V. Velev. All contents of this blog are adapted or in direct response to that paper.
 
-We first develop a bunch of machinery to help us analyze multisets, most of which is found in the paper itself. If you have already read it, please skip to [insert section here].
+We first develop a bunch of machinery to help us analyze multisets, most of which is found in the paper itself. If you have already read it, please skip to the Evaluation section.
 
 ## Background
 
@@ -76,7 +76,11 @@ I will now express a lot more of my own ideas.
 
 ### Behavior of Multisets
 
-The paper claims that De Morgan's Law holds, but I believe this is false. The problem lies within the fact that $$\bar{A} = (A^{*}, -m_{A})$$, so the root set is still the same. In the author's proof of the De Morgan's law, the root set becomes $$\bar{A^{*}}$$, but this isn't the case with our definition. Unless I am misunderstanding the concept of negative multiplicities. Consider $$A = [1,2]_{1,1}$$ and $$B = [2,3]_{2,1}$$. $$\bar{A \cup B} = [1,2,3]_{-1,-2,-1}$$, and $$\bar{A} \cap \bar{B}$$ is completely messed up. It should be $$(A^{*} \cap B^{*}, \min(-m_{a},-m_{b}))$$ as per our definition, but the root set is $$\{2\}$$ while our multiplicity function tells us that there should be a $$-1$$ involved with the elements $$1,3$$. According to our definition, we should disregard those two which would give us $$[2]_{-2}$$. But if we allow it, then De Morgan's Law appears to work (at least for the cases I checked, I could be wrong) but still the definition is messed up. It seems that the concept of a root set is impeding our multiset definition, so perhaps we should simply define a multiset by the multiplicity function.
+The paper claims that De Morgan's Law holds, but I believe this is false. The problem lies within the fact that $$\bar{A} = (A^{*}, -m_{A})$$, so the root set is still the same. In the author's proof of the De Morgan's law, the root set becomes $$\bar{A^{*}}$$, but this isn't the case with our definition. Unless I am misunderstanding the concept of negative multiplicities. Consider $$A = [1,2]_{1,1}$$ and $$B = [2,3]_{2,1}$$. $$\bar{A \cup B} = [1,2,3]_{-1,-2,-1}$$, and $$\bar{A} \cap \bar{B}$$ is completely messed up. It should be $$(A^{*} \cap B^{*}, \min(-m_{a},-m_{b}))$$ as per our definition, but the root set is $$\{2\}$$ while our multiplicity function tells us that there should be a $$-1$$ involved with the elements $$1,3$$. According to our definition, we should disregard those two which would give us $$[2]_{-2}$$. But if we allow it, then De Morgan's Law appears to work (at least for the cases I checked, I could be wrong). Regardless, the definition is messed up. It seems that the concept of a root set is impeding our multiset definition, so perhaps we should simply define a multiset by the multiplicity function. So we would define as so:
+
+**Definition.** A multiset $$A$$ is a function $$m_{A} : U \rightarrow \mathbb{No}$$. 
+
+I am a bit skeptical with the use of the surreals here, but I'm sure it is possible to make this work out. Alas, the concept of fuzzy multisets are inherently weird, especially in the infinite case. Perhaps a better way would just be sending members of $$U$$ into the proper class $$\mathrm{Card}$$, but we loose the fuzzy-ness and negative-ness of the multisets. To be fair, this is probably a better way to think of multisets as negative membership doesn't make much sense in the first place.
 
 ### Ordering of the M-Cardinals
 
@@ -91,6 +95,14 @@ Despite not being linearly ordered, we still want to be able to analyze the m-ca
 *Proof.* Suppose we have two m-cardinals, $$\lambda = (a,b)$$ and $$\kappa = (c,d)$$. We claim that $$\xi = (a \wedge c, b \wedge d)$$ works for the join element. When $$a,b,c,d$$ are cardinals but not m-cardinals themselves, the $$\wedge$$ simply is the $$\max$$ between the two. So we sort of inductively build up for the join element. An analogous case is $$\vee$$ and $$\min$$ for the meet case. Essientally, we want $$\xi$$ to be the least upper bound for $$\lambda$$ and $$\kappa$$. Therefore, $$\xi$$ must be a least upper bound and the only least upper bound. It is easy to see $$\xi$$ is a least upper bound. Let $$\gamma = (e,f)$$. Suppose $$\gamma < \xi$$. So $$e < a \wedge c$$, which obviously results in a contradiction. A similar idea applies to prove that it is the only upper bound. So this completes the proof. $$\Box$$
 
 With this new treatment of the M-Cardinals, we can easily prove many of the other theorems associated with M-Cardinals.
+
+### A Better Formulation for M-Cardinality (?)
+
+I argue that the trivial notion for m-cardinality, the multipicity $$\mu$$, is a better formulation. The argument is as follows:
+
+**Argument.** Consider a multiset $$[a,b,c]_{2,3,1}$$. We can think of this multiset as $$\{\{a_{1},a_{2}\},\{b_{1},b_{2},b_{3}\},\{c_{1}\}\}$$. Let us unpack the elements to recieve $$\{a_{1},a_{2},b_{1},b_{2},b_{3},c_{1}\}$$. Of course, we can recover the cardinality of the root set and the multiplicity. However, the only intuitive notion of size here is with the unpacked version. It makes no sense to consider both; only one. In which case it makes much more sense to check the multiplicity instead of the cardinality of the root set. There are 6 elements of $$[a,a,b,b,b,c]$$, not 3. So $$\mu$$ is still a better measure.
+
+All the weird behavior regarding M-Cardinals disappear with this interpretation, assuming we disregard fuzzy and negative multisets. In fact, there is now (trivially) a bijection that preserves order. Including these fuzzy multisets, there is now other weird behavior that arises (weird infinite sums such as $$1-1+1-1+1-1+\cdots$$). However, to my knowledge, there is no good way to get rid of this behavior.
 
 [^1]: Perhaps an abuse of notation, however functions will be treated like numbers in the sense that for functions $$f,g : X \rightarrow Y$$, we say that for some function $$h : Y \times Y \rightarrow Y$$, the notation $$h(f,g)$$ denotes the same as $$h_{f,g} : X \rightarrow Y$$ such that for every $$x \in X$$, $$h_{f,g}(x) = h(f(x),g(x))$$.
 
