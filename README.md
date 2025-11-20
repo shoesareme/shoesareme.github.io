@@ -1,8 +1,8 @@
 # shoesareme.github.io
 
-My new website which will mainly just host my random stuff. This website is under heavy construction.
+My new website which will mainly just host my random stuff. This is under heavy construction and there isn't much besides this currently.
 
-[project](projects/)
+I will update and polish when I have more time.
 
 ## About Me
 
