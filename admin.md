@@ -17,8 +17,6 @@ i forgot
 
 ## to do
 
-- amend blog 2
-- blog 3/4
 - table of contents and stuff [important]
 - other blogs
 - add tags to blogs or something organized
