@@ -16,11 +16,11 @@ The materials found here were for a guest lecture at a TJVMT SARML session. As s
 
 These comprise very short one-off lectures that were written purely for fun. Alternatively, there are also notes that I've written for studying and classes.
 
-### Multivariable Calculus Chapter 16 Notes (Iteration 2, Ongoing)
+### Multivariable Calculus Chapter 16 Notes (11/14/2025)
 
-This was a unit of multivariable calculus concerning double and triple integrals. As of writing this, the unit has just completed and I am finalizing the notes.
+This was a unit of multivariable calculus concerning double and triple integrals.
 
-[PDF](https://shoesareme.github.io/projects/lectures/math/ch16notesv2.pdf)
+[PDF](https://shoesareme.github.io/projects/lectures/math/ch16notesv3.pdf)
 
 ### Multivariable Calculus Chain Rule (9/25/2025)
 
