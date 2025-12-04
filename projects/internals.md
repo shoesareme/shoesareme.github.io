@@ -4,4 +4,6 @@
 
 [Private Folder](https://drive.google.com/drive/folders/1OXQIMZhgb1x2PD3zKnuf0sUdlJ93bDwh)
 
+[Intranet](http://intranet-qxservices/)
+
 [Old Website](https://github.com/shoesareme/OLDshoesareme.github.io)
