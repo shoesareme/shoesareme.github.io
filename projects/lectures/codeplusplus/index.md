@@ -2,6 +2,10 @@
 
 Code++ is a club dedicated to learning advanced computer science topics. In the 2025-2026 school year, I serve the role of Vice-President within the club.
 
+## Busy Beaver Introduction (TBD)
+
+TBD
+
 ## Time Complexity (10/17/2025)
 
 Standard lecture about time complexity formally (including details about $$\Omega$$ and $$\Theta$$).

@@ -1,4 +1,3 @@
-
 # Admin stuff
 
 There is nothing special here lol i just need a place with fast links to everywhere.
@@ -26,3 +25,5 @@ i forgot
 ## important
 
 dont leak ts website to ur classmates or its over wilted rose emoji
+
+[internals](https://shoesareme.github.io/projects/internals)
