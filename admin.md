@@ -14,6 +14,8 @@ i forgot
 
 [prod](https://shoesareme.github.io/projects/products)
 
+[aboutme](https://shoesareme.github.io/aboutme)
+
 ## to do
 
 - table of contents and stuff [important]

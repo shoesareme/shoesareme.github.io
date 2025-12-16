@@ -8,11 +8,15 @@ To be added
 
 ## Immune System Fighting Simulator
 
-To be added
+Roles: Lead Modeler/Designer, Minor Progammer
+
+See the project [here](https://www.roblox.com/games/4904260018/Immune-System-Fighting-Simulator).
 
 ## Toolboxal
 
-To be added
+Roles: Scripter
+
+See the project [here](https://github.com/VJZ-Corp/Toolboxal).
 
 ## Minor Projects
 
