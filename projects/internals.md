@@ -1,6 +1,6 @@
 # Internals
 
-> You really shouldn't be here.
+> A list of internal links and repositories for research. You probably shouldn't be here.
 
 [Private Research Folder](https://drive.google.com/drive/folders/1OXQIMZhgb1x2PD3zKnuf0sUdlJ93bDwh)
 

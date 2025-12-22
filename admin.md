@@ -6,6 +6,8 @@ There is nothing special here lol i just need a place with fast links to everywh
 
 i forgot
 
+noe i remembered but im too lazy sory
+
 ## wip
 
 [blog](https://shoesareme.github.io/blog)
@@ -18,11 +20,7 @@ i forgot
 
 ## to do
 
-- table of contents and stuff [important]
-- other blogs
-- add tags to blogs or something organized
-- add java lectures
-- add all the other sections
+- idk rn
 
 ## important
 

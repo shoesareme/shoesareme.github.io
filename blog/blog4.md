@@ -1,6 +1,6 @@
 # Blog 4 - A Discussion on Infinite Multiset Cardinality (9/18/2025-10/19/2025)
 
-> Note: Turns out, the ideas here are much more interesting than I thought. I might turn this into something bigger.
+> Note: Turns out, the ideas here are much more interesting than I thought. A follow up paper is being written.
 
 I want to discuss a paper about *multisets* that I read awhile back. Specifically, the idea of the cardinality of infinite multisets. So, I want to cover some information about multisets, a review and interpretation of the paper, and my own ideas regarding this concept. The paper is titled "Infinite multisets: Basic properties and cardinality" by Milen V. Velev. All contents of this blog are adapted or in direct response to that paper.
 
