@@ -27,3 +27,5 @@ noe i remembered but im too lazy sory
 dont leak ts website to ur classmates or its over wilted rose emoji
 
 [internals](https://shoesareme.github.io/projects/internals)
+
+sometimes i find my grasp on reality slipping
