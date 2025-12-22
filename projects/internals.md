@@ -9,3 +9,8 @@
 [Intranet](http://intranet-qxservices/)
 
 [Old Website](https://github.com/shoesareme/OLDshoesareme.github.io)
+
+To be added:
+
+- Funny archive
+- Blog development server
