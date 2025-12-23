@@ -4,6 +4,8 @@ To be added
 
 ## Foundations of CS Final Project 
 
+Roles: Lead Programmer and Designer
+
 To be added
 
 ## Immune System Fighting Simulator

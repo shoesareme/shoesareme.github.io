@@ -16,7 +16,7 @@ noe i remembered but im too lazy sory
 
 [prod](https://shoesareme.github.io/projects/products)
 
-[aboutme](https://shoesareme.github.io/aboutme)
+[archive](https://shoesareme.github.io/archive)
 
 ## to do
 
