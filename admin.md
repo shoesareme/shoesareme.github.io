@@ -20,7 +20,7 @@ noe i remembered but im too lazy sory
 
 ## to do
 
-- idk rn
+- there are some stuff but I am way to lazy to write it down 
 
 ## important
 
