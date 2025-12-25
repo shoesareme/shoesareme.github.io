@@ -6,13 +6,20 @@ TJCT 25/26 Rated In-House #2 Problem A
 
 Jason has a deep fear of chairs and would like to be as far away from them as possible. Jason in an $$n \times n$$ room $$(1 \leq n \leq 10^{9})$$ with a singular chair. Both Jason's coordinates $$(x_{j},y_{j})$$ and the chair's coordinates $$(x_{c},y_{c})$$ are integer values $$(1 \leq x_{j},y_{j},x_{c},y_{c} \leq n)$$.
 
-Jason would like to maximize $$d = \max(|x_{c}-x_{j}|,|y_{c}-y_{j}|)$$. Jason can move to any of the 8 adjacent integer coordinates around him [^1], with the exception that he cannot go out of bounds (none of this coordinates can ever be $$<1$$ or $$>n$$). What is the minimum number of steps he must take in order to achieve the maximum $$d$$ value?
+Jason would like to maximize $$d = \max(\|x_{c}-x_{j}\|,\|y_{c}-y_{j}\|)$$. Jason can move to any of the 8 adjacent integer coordinates around him[^1], with the exception that he cannot go out of bounds (none of this coordinates can ever be $$<1$$ or $$>n$$). What is the minimum number of steps he must take in order to achieve the maximum $$d$$ value?
 
 See pdf (to be added) for input/output format as well as sample cases.
 
 ## Solution
 
 To be added :skull:
+
+sketch:
+- notice that the furthest is always somewhere on the border of the square
+- the furthest will always encompass an entire side
+- so we just check up down left right from jason's starting point, one of these being the solution
+- find the furthest with min steps
+- $$O(1)$$ solution as desired.
 
 ## Code
 
