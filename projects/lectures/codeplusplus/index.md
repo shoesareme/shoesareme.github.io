@@ -2,6 +2,10 @@
 
 Code++ is a club dedicated to learning advanced computer science topics. In the 2025-2026 school year, I serve the role of Vice-President within the club.
 
+## P vs. NP Overview (TBD)
+
+TBD
+
 ## Busy Beaver Introduction (TBD)
 
 TBD
@@ -11,7 +15,6 @@ TBD
 Standard lecture about time complexity formally (including details about $$\Omega$$ and $$\Theta$$).
 
 [Slides](https://shoesareme.github.io/projects/lectures/codeplusplus/timecomplexity.pdf)
-
 
 ## Lambda Calculus Guest Lecture (5/16/2025)
 

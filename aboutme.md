@@ -29,9 +29,3 @@ To be added
 ## Contact and Socials
 
 You can contact me at teammcpro3@gmail.com. 
-
-linkedin?
-
-codeforces?
-
-other?
