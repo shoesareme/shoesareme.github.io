@@ -16,7 +16,7 @@ We must first find the locations of where Jason must be in order to have maximum
 
 **Claim.** One of the following values always has greatest distance: $$\{(1,y_{j}),(n,y_{j}),(x_{j},1),(x_{j},n)\}$$.
 
-*Proof.* We want to maximize $$\max(\|x_{c}-x_{j}\|,\|y_{c}-y_{j}\|)$$, and notice $$x_{c}$$ and $$y_{c}$$ are fixed. We can, without loss of generality, assume $$\|x_{c}-x_{j}\| \geq \|y_{c}-y_{j}\|$$. Notice this means, no matter what, only coordinate direction actually matters. As long as $$\|x_{c}-x_{j}\| \geq \|y_{c}-y_{j}\|$$, we can have $$y_{j}$$ equal to anything. So we can just keep $$y_{j}$$ the same, never updating it as it wouldn't matter unless there is some coordinate $$y$$ such that for all $$x$$, $$\|x_{c}-x\| < \|y_{c}-y\|$$. Now, we show that the maximal $$x_{j}$$ is either $$1$$ or $$n$$. Notice that
+*Proof.* We want to maximize $$\max(\|x_{c}-x_{j}\|,\|y_{c}-y_{j}\|)$$, and notice $$x_{c}$$ and $$y_{c}$$ are fixed. We can, without loss of generality, assume $$\|x_{c}-x_{j}\| \geq \|y_{c}-y_{j}\|$$. Notice this means, no matter what, only one coordinate direction actually matters. As long as $$\|x_{c}-x_{j}\| \geq \|y_{c}-y_{j}\|$$, we can have $$y_{j}$$ equal to anything. So we can just keep $$y_{j}$$ the same, never updating it as it wouldn't matter unless there is some coordinate $$y$$ such that for all $$x$$, $$\|x_{c}-x\| < \|y_{c}-y\|$$. Now, we show that the maximal $$x_{j}$$ is either $$1$$ or $$n$$. Notice that
 
 $$
 \|x_{c} - x_{j}\| = \|-(x_{j} - x_{c})\| = \|x_{j} - x_{c}\|.
