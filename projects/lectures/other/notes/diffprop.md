@@ -35,7 +35,7 @@ where each $$e_{i}=a_{i}$$ or $$0$$.
 These are written as 
 
 $$
-\prod_{i<n} e_{i} = e_{1} \cdot e_{2} \cdot \cdots \cdot e_{n}
+\prod_{i<n} e_{i} = e_{1} e_{2} \cdots e_{n}
 $$
 
 where each $$e_{i}=a_{i}$$ or $$1$$. In this case, $$\prod$$ is just logical AND.
@@ -45,7 +45,7 @@ where each $$e_{i}=a_{i}$$ or $$1$$. In this case, $$\prod$$ is just logical AND
 These are written as 
 
 $$
-\prod_{i<n} e_{i} = e_{1} \cdot e_{2} \cdot \cdots \cdot e_{n}
+\prod_{i<n} e_{i} = e_{1} e_{2} \cdots e_{n}
 $$
 
 where each $$e_{i}=a_{i}$$ or $$\neg a_{i}$$. 
@@ -54,4 +54,4 @@ where each $$e_{i}=a_{i}$$ or $$\neg a_{i}$$.
 
 > To be finished
 
-[^1]: Indeed, this must be strictly in a temporal logic-esque context.
+[^1]: Indeed, this is in a temporal logic-esque context.
