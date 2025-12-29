@@ -12,5 +12,4 @@
 
 To be added:
 
-- Funny archive
 - Blog development server
