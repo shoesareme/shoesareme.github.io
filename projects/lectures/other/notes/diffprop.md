@@ -35,7 +35,7 @@ where each $$e_{i}=a_{i}$$ or $$0$$.
 These are written as 
 
 $$
-\prod{i<n} e_{i} = e_{1} \cdot e_{2} \cdot \cdots \cdot e_{n}
+\prod_{i<n} e_{i} = e_{1} \cdot e_{2} \cdot \cdots \cdot e_{n}
 $$
 
 where each $$e_{i}=a_{i}$$ or $$1$$. In this case, $$\prod$$ is just logical AND.
@@ -45,7 +45,7 @@ where each $$e_{i}=a_{i}$$ or $$1$$. In this case, $$\prod$$ is just logical AND
 These are written as 
 
 $$
-\prod{i<n} e_{i} = e_{1} \cdot e_{2} \cdot \cdots \cdot e_{n}
+\prod_{i<n} e_{i} = e_{1} \cdot e_{2} \cdot \cdots \cdot e_{n}
 $$
 
 where each $$e_{i}=a_{i}$$ or $$\neg a_{i}$$. 
