@@ -9,3 +9,15 @@ For now, you can see some of the lectures I have written [here](https://shoesare
 My name is Jason Zhang and I am interested in mathematical logic. Contact me at teammcpro3@gmail.com.
 
 My full about me page is [here](https://shoesareme.github.io/aboutme).
+
+## News
+
+Here are some cool updates!
+
+## Latest News - Mathdash Contest
+
+I've made a [mathdash contest](https://mathdash.com/contest/boolean-alg-1)! It's unrated and the purpose is for fun. It's about boolean algebra :D
+
+## Archive
+
+An archive of all the past news can be found [here](https://shoesareme.github.io/news).

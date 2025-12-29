@@ -24,6 +24,10 @@ See the project [here](https://github.com/VJZ-Corp/Toolboxal).
 
 To be added
 
+### Mathdash Contest 1
+
+[Unrated, here.](https://mathdash.com/contest/boolean-alg-1)
+
 ### Competitive Programming Problems
 
 To be added
