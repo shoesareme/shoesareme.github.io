@@ -2,6 +2,12 @@
 
 Here are some lectures I've written for the TJ computer team, a club dedicated to competitive programming. In the 2025-2026 school year, I have the role of secretary. 
 
+## Nim (2/6/2026)
+
+This was entirely made and presented by me.
+
+[Slides](https://shoesareme.github.io/projects/lectures/computerteam/Nim.pdf)
+
 ## Constructive Algorithms Introduction (11/7/2025)
 
 This was entirely made and presented by me.

@@ -14,9 +14,9 @@ My full about me page is [here](https://shoesareme.github.io/aboutme).
 
 Here are some cool updates!
 
-### Latest News - Mathdash Contest
+### Latest News - N/A
 
-I've made a [mathdash contest](https://mathdash.com/contest/boolean-alg-1)! It's unrated and the purpose is for fun. It's about boolean algebra :D
+N/A.
 
 ### Archive
 

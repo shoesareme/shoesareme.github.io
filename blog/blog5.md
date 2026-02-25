@@ -1,31 +1,42 @@
-# Blog 5 - Response to "The true magnitude of Absolute Totality" (TBD)
+# Blog 5 - Analysis of $$\omega_{\dagger 1}$$ ordinals and above (TBD)
 
 *The true magnitude of Absolute Totality* by Sergey Aytzhanov is an interesting paper that has a special place within my journey. Indeed, it is the paper that inspired me to learn how to read formal mathematics and to start my own journey in mathematical research. However, that is a story for another day. What I wanted to talk about here was solely the contents of the paper. I believe it was written by an enthusiast like myself. This is evident by the fact that I cannot find anything about the author online. I also recall a certain MathOverflow post saying that enthusiasts were trying to make a very similar argument to the author.
 
-Regardless, I want to revisit it and talk about some of the ideas covered. The ideas are really interesting, but really nonstandard and involves analysis and thinking not commonly seen in mathematics. I have a particular fascination with these types of nonstandard ideas, and this one is especially interesting. I will go through the paper and express my commentary along the way. 
+Regardless, I want to revisit it and talk about some of the ideas covered. The ideas are really interesting, but really nonstandard and involves analysis and thinking not commonly seen in mathematics. I have a particular fascination with these types of nonstandard ideas, and this one is especially interesting. I will be mostly expressing my own analysis on the ideas presented.
 
 ## Motivation
 
 The motivation of the paper was to introduce a concept of cardinals/ordinals larger than anything currently concieved of in set theory. The paper tries to accomplish this fact in the same way that set theorists previously concieved of uncountable ordinals. 
 
-## Irreducibility
+The ideas introduced here are extremely philosophically thought-provoking, even if I disagree here and there, and I really recommend you read it through yourself. Despite first reading it around 2023, I still find myself revisting and revising my analysis on certain topics.
 
-**Definition (Aytzhanov).** $$\Omega$$ is the supremum of all well orderings amenable to a single logical sort[^1].
+## Logical Sorts and Irreducibility
 
-What this means is that $$\Omega$$ is the well ordering of all well orderings that can be expressed in a single logical sort. By an analogue to the *Burali-Forti Paradox*, $$\Omega$$ cannot be amenable to a singular logical sort.
+We say that a *logical sort* is a domain of discourse to quantify over. For example, if a theory has multiple sorts, then it has multiple domains to quantify over. Classical theories such as $$\mathrm{ZFC}$$ are all 1-sorted.
 
-We will notate well orderings $$\alpha$$ that are $$\beta$$-sort irreducible to be $$\alpha_{\dagger \beta}$$. The least such of these well orderings for a particular $$\beta$$ is $$\omega_{\dagger \beta}$$. We should view 1-sort irredicubility to be the same as the uncountableness of $$\omega_{1}$$.
+Let us notate $$\omega_{\dagger \beta}$$ as the least ordinal that cannot be expressed by any $$\beta$$-sorted structure. We will be extensively studying these ordinals.
 
-### Does this even work?
+First, let us take a look at $$\omega_{\dagger 1}$$. On the surface, it would violate an analog of the *Burali-Forti Paradox*. The original paradox prevents the existence of the "largest ordinal". In general, a Burali-Forti paradox has two solutions:
 
-But does this concept even work? Does this make sense? I think not. Especially after what user C7X argued on [MathOverflow](https://mathoverflow.net/q/447922) (which is the same post as above).
+1. The object in question does not exist;
+2. The object in question does not satisfy some property $$\phi$$.
 
-In essence, the idea is that we can reduce a two sorted theory $$(V,W,\in)$$ to a one sorted theory $$(\{0\} \times V \cup \{1\} \times W, \in^{*})$$ which means "sorted-ness" isn't really all the special.
+Our goal with describing the $$\omega_{\dagger \beta}$$s is to aim for that second solution. In particular, we can view $$\omega_{\dagger 1}$$ as the supremum of all the 1-sorted ordinals. However, there appears to be a lingering problem.
 
-So, are we done? Is it already over? To a professional mathematician, probably. But we are here to have fun! Not to publish a research paper or anything. So we will entertain this idea and keep moving on. This will be a recurring theme.
+**Lemma.** *$$\omega_{\dagger 1}$$ does not exist.*
 
-### Standard Model Tangent
+*Proof.* Assume $$\omega_{\dagger 1}$$ is $$n$$-sorted. Now, there is an isomorphism
 
-### Larger Cardinals
+$$
+(V_{1}, V_{2}, \dots, V_{n}, \in) \cong \left(\bigcup^{n}_{i = 1} \{i\} \times V_{i}, \in^{*}\right),
+$$
 
-[^1]: A logical sort is a bit hard to define precisely but is easy to think of in practice. Most set theories are of a single sort. They operate over one time of object, a set. Some two sorted set theories may involve two different kinds of sets that are in different domains of discourses in a sense. Models may have to be identified as $$(V, W, \in)$$ instead of just $$(V, \in)$$.
+as long as we choose $$\in^{*}$$ correctly, which is easy (choose based on the previous $$\in$$). Hence, the second solution to the Burali-Forti paradox cannot apply here, and so $$\omega_{\dagger 1}$$ does not exist. $$\Box$$
+
+This proof is a generalized version of what C7X argued on [MathOverflow](https://mathoverflow.net/questions/100981/ultrainfinitism-or-a-step-beyond-the-transfinite/447922#447922) (this is the same post mentioned above). So, are we done? For a professional mathematician, maybe. But we are not here to review a paper for the most prestigous journal. We are here to learn about interesting ideas and analysis upon them, so we will continue.
+
+It should be noted that Aytzhanov does seem to try to form a counterargument against this, if I am interpreting it correctly. Essientally, we form a "sort-nonstandard" theory $$\mathfrak{T}$$ with second order $$\mathrm{ZFC}_{2}$$ as the base theory. Constants are manually forced in, making $$\mathfrak{T}$$ internally 1-sorted but externally 1-sort irreducible. I'm not sure if this is a direct addressal to the above lemma, but it is a similar idea. It does seem like I'm missing something here, the ordinal $$\omega^{\mathfrak{M}}_{\dagger 1}$$ is briefly noted and is talked about like it is already an established concept, yet I cannot find anything about it. Any more information would be appreciated.
+
+### Attempting to Rescue $$\omega_{\dagger 1}$$
+
+Regardless, we will try to develop our own attempt at saving $$\omega_{\dagger 1}$$.
