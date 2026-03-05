@@ -26,7 +26,7 @@ To be added
 
 ### Mathdash Contest 1
 
-[Unrated, here.](https://mathdash.com/contest/boolean-alg-1)
+Unrated, [here.](https://mathdash.com/contest/boolean-alg-1)
 
 ### Competitive Programming Problems
 
