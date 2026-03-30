@@ -2,11 +2,11 @@
 
 There's probably a better way to do this, but this suffices for now.
 
-## Blog 3 - First Publication Reflection (10/19/2025)
+## Blog 3 - A Discussion on Infinite Multiset Cardinality (10/19/2025)
 
 Click [here](https://shoesareme.github.io/blog/blog3)
 
-## Blog 2 - Some Fun Facts (9/13/2025) [temporarily deleted]
+## Blog 2 - First Publication Reflection (10/19/2025)
 
 Click [here](https://shoesareme.github.io/blog/blog2).
 

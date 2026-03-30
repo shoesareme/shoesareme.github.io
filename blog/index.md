@@ -1,6 +1,6 @@
 # Blog Hub
 
-## Most Recent Blog: Blog 4 - A Discussion on Infinite Multiset Cardinality (10/19/2025)
+## Most Recent Blog: Blog 4 - Math Travel Competition
 
 Click [here](https://shoesareme.github.io/blog/blog4)
 
