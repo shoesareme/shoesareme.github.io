@@ -2,13 +2,20 @@
 
 My new website which will mainly just host my random stuff. This is under heavy construction and there isn't much besides this currently. I will update and polish when I have more time.
 
-For now, you can see some of the lectures I have written [here](https://shoesareme.github.io/projects/lectures/). More things will be added soon!
-
 ## About Me
 
 My name is Jason Zhang and I am interested in mathematical logic. Contact me at teammcpro3@gmail.com.
 
 My full about me page is [here](https://shoesareme.github.io/aboutme).
+
+## Links
+
+Here is a hub of links for this website.
+
+- [Works](https://shoesareme.github.io/projects/): A collection of all my projects including lectures, papers, etc.
+- [Blog](https://shoesareme.github.io/blog/): A blog where I discuss my life and some random math facts.
+
+More things will come soon.
 
 ## News
 
