@@ -1,42 +1,32 @@
-# Blog 5 - Analysis of $$\omega_{\dagger 1}$$ ordinals and above (TBD)
+# Blog 5 - An Actual Math Paper (4/4/2026)
 
-*The true magnitude of Absolute Totality* by Sergey Aytzhanov is an interesting paper that has a special place within my journey. Indeed, it is the paper that inspired me to learn how to read formal mathematics and to start my own journey in mathematical research. However, that is a story for another day. What I wanted to talk about here was solely the contents of the paper. I believe it was written by an enthusiast like myself. This is evident by the fact that I cannot find anything about the author online. I also recall a certain MathOverflow post saying that enthusiasts were trying to make a very similar argument to the author.
+A few days ago, I submitted my first math paper for review. I haven't heard back yet (obviously) as the process takes quite a while. However, I want to reflect over this experience and how it different from previous projects.
 
-Regardless, I want to revisit it and talk about some of the ideas covered. The ideas are really interesting, but really nonstandard and involves analysis and thinking not commonly seen in mathematics. I have a particular fascination with these types of nonstandard ideas, and this one is especially interesting. I will be mostly expressing my own analysis on the ideas presented.
+> Update 4/5/2026:
+> Well, I just heard back! I don't know the exact status yet, but they said they will get back the results within a week. I honestly don't know how this will go, but I'm hoping for the best.
 
-## Motivation
+## Brief Overview of the Paper
 
-The motivation of the paper was to introduce a concept of cardinals/ordinals larger than anything currently concieved of in set theory. The paper tries to accomplish this fact in the same way that set theorists previously concieved of uncountable ordinals. 
+The paper itself is an exploration into an interesting set theory idea. The birth of this paper can actually be traced back to a previous [blog](https://shoesareme.github.io/blog/blog3) I wrote about multiset cardinality. Since writing the ideas in there, I had found quite a bit more interesting ideas concerning the multiset cardinality developed in that respect and specifically an actual nontrivial[^1] theorem which made things become a lot clearer. I developed the structure of the m-cardinals $$\mathrm{MCard}$$ and found an isomorphism to certain non-decreasing sequences of cardinals (which I denoted $$\mathcal{M}$$). I'll post the preprint later.
 
-The ideas introduced here are extremely philosophically thought-provoking, even if I disagree here and there, and I really recommend you read it through yourself. Despite first reading it around 2023, I still find myself revisting and revising my analysis on certain topics.
+## Quick Reflection
 
-## Logical Sorts and Irreducibility
+I still am quite proud of what I was able to write, especially since I don't have formal higher mathematical training yet. This also highlights the major difference between my previous publications/work. This latest work was completely kickstarted and managed by me, from start to finish. In a previous work, I had a mentor which guided me through the process, even if the final work was written by me. For this one, there was no guidance from a professional. There was, however, a lot of experience I had gathered throughout the years (more on this later). 
 
-We say that a *logical sort* is a domain of discourse to quantify over. For example, if a theory has multiple sorts, then it has multiple domains to quantify over. Classical theories such as $$\mathrm{ZFC}$$ are all 1-sorted.
+Another major difference is that this is almost purely theoretical. It finds itself little to no application in any field. Maybe one day there will be something cool that applies it, but I doubt it. Anyways, this makes the style of the paper very different. I have to somehow build a cohesive story without the easy "I need XYZ so it can be applied somewhere". Of course, this wasn't too much of a challenge as my work is indeed motivated by actual factors. But still a major difference to highlight.
 
-Let us notate $$\omega_{\dagger \beta}$$ as the least ordinal that cannot be expressed by any $$\beta$$-sorted structure. We will be extensively studying these ordinals.
+Now, I have no idea whether the journal I submitted to will reject or accept my work. Honestly, I'd put it to 50/50. The journal is targetted towards high school writters, and it is also specifically for mathematics. That is a good thing, but it can also be a bad thing. The issue I'm most concerned about is that my work is too complicated to be in a high school journal, but too amateur to go beyond that. There isn't a fantastic place this fits right into, especially considering the time constraints I am subjected to and the circumstances of my work. I'm hoping for the best with the current journal I'm submitting to, it seems like the best fit and honestly I just want to be done with this project.
 
-First, let us take a look at $$\omega_{\dagger 1}$$. On the surface, it would violate an analog of the *Burali-Forti Paradox*. The original paradox prevents the existence of the "largest ordinal". In general, a Burali-Forti paradox has two solutions:
+Regardless of reject/accept, I would probably point to this as my "high school capstone" (silly as a concept, but it illustrates the point). This really has been the culmination of my high school experience, and it nicely captures a lot of aspects of my high school life. Or more generally, my pre-college life. 
 
-1. The object in question does not exist;
-2. The object in question does not satisfy some property $$\phi$$.
+## The Journey
 
-Our goal with describing the $$\omega_{\dagger \beta}$$s is to aim for that second solution. In particular, we can view $$\omega_{\dagger 1}$$ as the supremum of all the 1-sorted ordinals. However, there appears to be a lingering problem.
+I started this paper last year in December 2025. However, this is certainly NOT where the journey to publish started. The exact starting point is a bit debatable, but I think the most arguable starting point is almost exactly two years ago (spring break 2024).
 
-**Lemma.** *$$\omega_{\dagger 1}$$ does not exist.*
+There were many reasons why I wanted to start writing an actual math paper. Obviously, there was external motivation, but a large part of it genuinely came from my own interests. I already had some prior experience to what math papers should look like. However, I was still not well equipped for what I was going to face. It is a bit embarrasing to think about now. It was shocking how little I knew back then, which is a funny thing to say considering I still know next to nothing today. But the knowledge I had back then was somehow even less. Just to demonstrate how little I knew, I didn't even use $$\LaTeX$$ to make the thing. I am not going into the contents of the paper for my own sanity, although maybe one day I'll overcome this fear and share out.
 
-*Proof.* Assume $$\omega_{\dagger 1}$$ is $$n$$-sorted. Now, there is an isomorphism
+After taking an extended break, I came back with twice the mathematical knowledge that I had and I tried to rewrite my old paper. Soon, I quickly realized that what I was writing was not of quality and all and decided to completely restart. My second attempt focussed on a new idea altogether. This one made it much further than before, but it suffered from the issue of not having a clear central motivation. It was just a string of true statements in which the central purpose was weak. This one eventually got scrapped as well, although I might be able to save it one day. Finally I had started this paper, which I ended up submitting. Yay! Throughout this entire process, I had experienced a sort of stress that I suppose is similiar to writer's block. It really stalled my progress and it is why this dragged out so much.
 
-$$
-(V_{1}, V_{2}, \dots, V_{n}, \in) \cong \left(\bigcup^{n}_{i = 1} \{i\} \times V_{i}, \in^{*}\right),
-$$
+Anyways, I am getting tired from all of this. The journey isn't even over yet, there is a high chance that the first few journals will hit me with a bunch of rejections. I hope not. I hope this can be a one and done thing. We will see. I'll keep this updated.
 
-as long as we choose $$\in^{*}$$ correctly, which is easy (choose based on the previous $$\in$$). Hence, the second solution to the Burali-Forti paradox cannot apply here, and so $$\omega_{\dagger 1}$$ does not exist. $$\Box$$
-
-This proof is a generalized version of what C7X argued on [MathOverflow](https://mathoverflow.net/questions/100981/ultrainfinitism-or-a-step-beyond-the-transfinite/447922#447922) (this is the same post mentioned above). So, are we done? For a professional mathematician, maybe. But we are not here to review a paper for the most prestigous journal. We are here to learn about interesting ideas and analysis upon them, so we will continue.
-
-It should be noted that Aytzhanov does seem to try to form a counterargument against this, if I am interpreting it correctly. Essientally, we form a "sort-nonstandard" theory $$\mathfrak{T}$$ with second order $$\mathrm{ZFC}_{2}$$ as the base theory. Constants are manually forced in, making $$\mathfrak{T}$$ internally 1-sorted but externally 1-sort irreducible. I'm not sure if this is a direct addressal to the above lemma, but it is a similar idea. It does seem like I'm missing something here, the ordinal $$\omega^{\mathfrak{M}}_{\dagger 1}$$ is briefly noted and is talked about like it is already an established concept, yet I cannot find anything about it. Any more information would be appreciated.
-
-### Attempting to Rescue $$\omega_{\dagger 1}$$
-
-Regardless, we will try to develop our own attempt at saving $$\omega_{\dagger 1}$$.
+[^1]: Nontrivial of course depending on who you ask. I'm sure more experienced mathematicians could see the idea quite quickly. However, it was nontrivial to me and also it wasn't just a restatement of pre-existing work. At least to my knowledge.

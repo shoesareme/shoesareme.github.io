@@ -1,8 +1,8 @@
 # Blog Hub
 
-## Most Recent Blog: Blog 4 - Math Travel Competition
+## Most Recent Blog: Blog 5 - An Actual Math Paper
 
-Click [here](https://shoesareme.github.io/blog/blog4)
+Click [here](https://shoesareme.github.io/blog/blog5)
 
 ## Archive
 
