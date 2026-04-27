@@ -21,6 +21,7 @@ noe i remembered but im too lazy sory
 ## to do
 
 - there are some stuff but I am way to lazy to write it down 
+- https://vjz-corp.github.io/resources/math/hyperreals
 
 ## important
 
