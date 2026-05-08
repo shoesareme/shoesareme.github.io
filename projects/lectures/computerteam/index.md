@@ -2,6 +2,10 @@
 
 Here are some lectures I've written for the TJ computer team, a club dedicated to competitive programming. In the 2025-2026 school year, I have the role of secretary. 
 
+## Game Theory (4/24/2026)
+
+To be added.
+
 ## Nim (2/6/2026)
 
 This was entirely made and presented by me.
