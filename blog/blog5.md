@@ -6,7 +6,7 @@ A few days ago, I submitted my first math paper for review. I haven't heard back
 > Well, I just heard back! I don't know the exact status yet, but they said they will get back the results within a week. I honestly don't know how this will go, but I'm hoping for the best.
 
 > Update 4/9/2026:
-> Rejected :(
+> Rejected :(. Will continue trying once school dies down.
 
 ## Brief Overview of the Paper
 
