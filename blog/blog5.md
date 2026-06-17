@@ -8,6 +8,9 @@ A few days ago, I submitted my first math paper for review. I haven't heard back
 > Update 4/9/2026:
 > Rejected :(. Will continue trying once school dies down.
 
+> Update 6/17/2026:
+> I've submitted again around 2 weeks ago. Still waiting for a response! 
+
 ## Brief Overview of the Paper
 
 The paper itself is an exploration into an interesting set theory idea. The birth of this paper can actually be traced back to a previous [blog](https://shoesareme.github.io/blog/blog3) I wrote about multiset cardinality. Since writing the ideas in there, I had found quite a bit more interesting ideas concerning the multiset cardinality developed in that respect and specifically an actual nontrivial[^1] theorem which made things become a lot clearer. I developed the structure of the m-cardinals $$\mathrm{MCard}$$ and found an isomorphism to certain non-decreasing sequences of cardinals (which I denoted $$\mathcal{M}$$). I'll post the preprint later.
