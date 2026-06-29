@@ -1,5 +1,3 @@
-# Blog 6 - Out with the Past (undecided)
-
-So, some things happened.
+# Blog 6 - Liar Game! (Undecided)
 
 (finish later)
