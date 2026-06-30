@@ -28,4 +28,4 @@ To be added
 
 ## Contact and Socials
 
-You can contact me at teammcpro3@gmail.com. 
+See [here](https://shoesareme.github.io/personal/socials).
