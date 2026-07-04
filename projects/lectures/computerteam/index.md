@@ -6,9 +6,9 @@ Here are some lectures I've written for the TJ computer team, a club dedicated t
 
 In conjunction with Victor Cao, we worked on the slides and short lecture notes.
 
-[PDF](https://shoesareme.github.io/projects/lectures/computerteam/gametheoryguest.pdf)
+[PDF](https://shoesareme.github.io/projects/lectures/computerteam/gametheory/gametheoryguest.pdf)
 
-[Slides](https://shoesareme.github.io/projects/lectures/computerteam/gtslides.pdf)
+[Slides](https://shoesareme.github.io/projects/lectures/computerteam/gametheory/gtslides.pdf)
 
 ## Nim (2/6/2026)
 
