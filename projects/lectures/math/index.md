@@ -52,4 +52,4 @@ This was written to help a friend.
 
 #### References
 
-- Some of the lecture was adapted from [https://ncatlab.org/nlab/show/free+monoid].
+- Some of the lecture was adapted from [https://ncatlab.org/nlab/show/free+monoid](https://ncatlab.org/nlab/show/free+monoid).

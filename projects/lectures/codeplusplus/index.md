@@ -10,7 +10,7 @@ An introductory lecture to Turing Machines and the Busy Beaver problem.
 
 ### References 
 
-- Parts adatped from [https://wiki.bbchallenge.org/wiki/Main_Page].
+- Parts adatped from [https://wiki.bbchallenge.org/wiki/Main_Page](https://wiki.bbchallenge.org/wiki/Main_Page).
 
 ## P vs. NP Overview (2/27/2026)
 
@@ -32,7 +32,7 @@ Standard lecture about time complexity formally (including details about $$\Omeg
 
 ### References
 
-- Master Theorem discussion adopted from [https://www.math.umd.edu/~immortal/CMSC351/notes/mastertheorem.pdf].
+- Master Theorem discussion adopted from [https://www.math.umd.edu/~immortal/CMSC351/notes/mastertheorem.pdf](https://www.math.umd.edu/~immortal/CMSC351/notes/mastertheorem.pdf).
 
 ## Lambda Calculus Guest Lecture (5/16/2025)
 
@@ -42,7 +42,7 @@ This was a guest lecture for the Code++ club and centered around a friendly intr
 
 ### References
 
-- Parts adopted from Peter Selinger's Lecture Notes on the Lambda Calculus.
+- Parts adapted from Peter Selinger's Lecture Notes on the Lambda Calculus.
 
 ## Incomplete or Scrapped
 

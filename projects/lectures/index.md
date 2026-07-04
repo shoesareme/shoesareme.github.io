@@ -7,3 +7,5 @@ These are some lectures that I've written.
 [Computer Team Lectures](https://shoesareme.github.io/projects/lectures/computerteam/)
 
 [Code++ Lectures](https://shoesareme.github.io/projects/lectures/codeplusplus/)
+
+[Misc. Lectures](https://shoesareme.github.io/projects/lectures/other/)

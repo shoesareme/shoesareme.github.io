@@ -10,9 +10,9 @@ On Gödel's mathematical proof for God's existence. I simply cover background mo
 
 ### References
 
-- [https://plato.stanford.edu/entries/logic-modal/]
-- [https://math.stackexchange.com/questions/248548/g%C3%B6dels-ontological-proof]
-- [https://en.wikipedia.org/wiki/G%C3%B6del%27s_ontological_proof]
+- [https://plato.stanford.edu/entries/logic-modal/](https://plato.stanford.edu/entries/logic-modal/)
+- [https://math.stackexchange.com/questions/248548/g%C3%B6dels-ontological-proof](https://math.stackexchange.com/questions/248548/g%C3%B6dels-ontological-proof)
+- [https://en.wikipedia.org/wiki/G%C3%B6del%27s_ontological_proof](https://en.wikipedia.org/wiki/G%C3%B6del%27s_ontological_proof)
 
 ## Differential Propositional Calculus (12/2025)
 

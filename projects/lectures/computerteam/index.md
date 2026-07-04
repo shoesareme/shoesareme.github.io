@@ -38,5 +38,5 @@ I created slides for a guest lecture about Square Root techinques in conjunction
 
 Whenever an explicit reference is not provided, it has been adopted from the following sources:
 
-- [https://usaco.guide/]
-- [https://cp-algorithms.com/index.html]
+- [https://usaco.guide/](https://usaco.guide/)
+- [https://cp-algorithms.com/index.html](https://cp-algorithms.com/index.html)
