@@ -12,6 +12,10 @@ The materials found here were for a guest lecture at a TJVMT SARML session. As s
 
 [PDF (Long)](https://shoesareme.github.io/projects/lectures/math/infinitarycombo/long.pdf)
 
+### References
+
+In the materials.
+
 ## Shorts and Lecture Notes
 
 These comprise very short one-off lectures that were written purely for fun. Alternatively, there are also notes that I've written for studying and classes.
@@ -22,14 +26,26 @@ This was a unit of multivariable calculus concerning double and triple integrals
 
 [PDF](https://shoesareme.github.io/projects/lectures/math/ch16notesv3.pdf)
 
+#### References
+
+From class.
+
 ### Multivariable Calculus Chain Rule (9/25/2025)
 
 I wrote this to help my friends (and myself) study for a test.
 
 [PDF](https://shoesareme.github.io/projects/lectures/math/chainrulemulti.pdf)
 
+#### References
+
+From class.
+
 ### Free Monoids (9/9/2025)
 
 This was written to help a friend.
 
 [PDF](https://shoesareme.github.io/projects/lectures/math/freemonoids.pdf)
+
+#### References
+
+- Some of the lecture was adapted from [https://ncatlab.org/nlab/show/free+monoid].

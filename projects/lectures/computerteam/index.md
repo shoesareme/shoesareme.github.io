@@ -4,7 +4,11 @@ Here are some lectures I've written for the TJ computer team, a club dedicated t
 
 ## Game Theory (4/24/2026)
 
-To be added.
+In conjunction with Victor Cao, we worked on the slides and short lecture notes.
+
+[PDF](https://shoesareme.github.io/projects/lectures/computerteam/gametheoryguest.pdf)
+
+[Slides](https://shoesareme.github.io/projects/lectures/computerteam/gtslides.pdf)
 
 ## Nim (2/6/2026)
 
@@ -29,3 +33,10 @@ I created slides for a Binary Search lecture in conjunction with Abhiraj Mallang
 I created slides for a guest lecture about Square Root techinques in conjunction with Abhiraj Mallangi and Raagav Bala. I was responsible for creating the slides while my partners worked on different aspects of the lecture.
 
 [Slides](https://shoesareme.github.io/projects/lectures/computerteam/sqrtdecguest.pdf)
+
+## References
+
+Whenever an explicit reference is not provided, it has been adopted from the following sources:
+
+- [https://usaco.guide/]
+- [https://cp-algorithms.com/index.html]
