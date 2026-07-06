@@ -2,9 +2,11 @@
 
 The following is a collection of lectures that I've written concerning math-related topics.
 
-## Nonstandard Analysis (TBD)
+## Nonstandard Analysis (7/6/2026)
 
 TBD.
+
+[Video Talk](https://www.youtube.com/watch?v=gzIqN4hdtGM)
 
 ## Infinitary Combinatorics (8/7/2025)
 
