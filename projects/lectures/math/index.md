@@ -4,9 +4,17 @@ The following is a collection of lectures that I've written concerning math-rela
 
 ## Nonstandard Analysis (7/6/2026)
 
-TBD.
+This was the culmination of a months long course at Euler Circle where one indepedently wrote an expository paper and presentation (with some general guidance provided) on some advanced mathematics topic. The following is meant as an introduction to the foundations of the transfer principle in nonstandard analysis. 
 
 [Video Talk](https://www.youtube.com/watch?v=gzIqN4hdtGM)
+
+[Slides](https://shoesareme.github.io/projects/lectures/math/nsa/slides.pdf)
+
+[Paper](https://shoesareme.github.io/projects/lectures/math/nsa/paper.pdf)
+
+### References
+
+In the materials.
 
 ## Infinitary Combinatorics (8/7/2025)
 
