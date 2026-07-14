@@ -33,6 +33,7 @@ There were nine other people who woke up at the same time. We all sat around a t
 > - Not committing acts of violence against other players without the handgun.
 > - Stealing or taking other's handguns or papers.
 > - Directly showing another person your role via your paper.
+>
 > Violating the above counts as lying. 
 >
 > Role: You are not the murderer. Your goal is to find and eliminate the murderer. 
@@ -160,7 +161,29 @@ Alex's face went dark. "Way to expose my plan. Welp, I brought all this stuff an
 
 I instantly understood what he was doing. Of course, the murderer would not write that they are on the paper. But there is one thing the murderer shouldn't be able to know. The sentence `Your goal is to find and eliminate the murderer`. This sentence should be unique to innocent's papers, and it is different enough to the point where guessing it is not easy. While this is not guaranteed to find them, it is a good shot.
 
-We all took an oath saying that we would write the front page correctly. Then, we began. Within a minute, Alex had finished and turned in his paper. 
+But, Robert was not convinced of this idea. "Aren't we not allowed to show our papers to one another?"
+
+*Dang it, Robert's gonna convince everyone to not go with this idea. This is an easy way to sneak the killer out.* 
+
+I stood up and I walked up to Alex. We both faced the other people seated in the cafeteria. "It is fine. The paper says we cannot directly show our papers to one another. This is a viable bypass. Even if not, we can take an oath saying that we won't shoot each other for the reason of violating the showing paper rule."
+
+The crowd remained nervous. Murmurs broke out about wanting another option.
+
+I continued, "I know you are all very nervous. Please, it is okay. This will be important far later in the game. Both Alex and I have concluded this. Robert, would you like to start the oaths?"
+
+One by one, the seated players took oaths saying that they won't shoot each other for the potential reason of our little game being in violation of one of the pseudo-rules on the paper. 
+
+Alex addressed the crowd, "Alright. Now, let us take another oath that we will write our papers down correctly. This way, the murderer can't lie and we can catch them."
+
+This was obviously a fake explanation to get people to agree, but we continued with it.
+
+The seated players took an oath saying that we would write the front page correctly. 
+
+It was Alex's turn for his oath. "I will transfer the contents of the page of the paper I have correctly to another piece of paper."
+
+I nodded, "Likewise, I will transfer my page correctly to another."
+
+Then, we began. Within a minute, Alex had finished and turned in his paper. 
 
 *If he were the murderer, he would be able to get it correct since he saw Nathan's paper. I don't really see why-*  Bang! 
 
@@ -181,6 +204,14 @@ He raised his gun, and fired at Nathan!
 **BANG!**
 
 ### Chapter 4 - Bodies
+
+An uproar of chaos followed immediately. 
+
+"Dammit he's the killer! Kill him!" George took up his own gun at shot at Alex.
+
+**BANG!**
+
+But the one to drop to the floor was George, not Alex.
 
 ### Chapter 5 - Intermission
 
