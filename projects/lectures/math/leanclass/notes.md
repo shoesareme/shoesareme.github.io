@@ -150,7 +150,7 @@ theorem example4 (h1 : P → Q) (h2 : ¬ Q) : ¬ P := by
   have hq := h1 hp
   exact h2 hq
 ```
-This one is a bit nontrivial (since we aren't directly proving NOT, we are proving a contrapositive). Here is the breakdown:
+This one is a bit nontrivial. Here is the breakdown:
 
 1. `intro hp` takes `¬P` which is the same as `P → False` and gives a hypothesis `P` back (since `P → False` is in the goal). The goal is now set to `False` or the empty type.
 2. Now, `hq` will be set to `h1 hp` which is $h1(hp) : Q$.

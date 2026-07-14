@@ -1,6 +1,8 @@
 # You are not the Murderer.
 
 > So I got really bored and decided to try to write a story. Yes I'm bad at writing; this is just for my own personal amusement. 
+> 
+> I hope nobody ever finds this LOL
 
 ## Preface
 
