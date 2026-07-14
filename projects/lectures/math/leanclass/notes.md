@@ -1,6 +1,6 @@
 ---
-layout: bare
-title: My Special Page
+layout: github
+title: LEAN Notes
 ---
 
 # Notes on LEAN
