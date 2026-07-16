@@ -5,7 +5,7 @@ title: LEAN Notes
 
 # Notes on LEAN
 
-> Version: 3
+> Version: 4
 >
 > Notes are by Jason Zhang. This follow's Euler Circle's LEAN class. 
 >
@@ -155,3 +155,161 @@ This one is a bit nontrivial. Here is the breakdown:
 1. `intro hp` takes `¬P` which is the same as `P → False` and gives a hypothesis `P` back (since `P → False` is in the goal). The goal is now set to `False` or the empty type.
 2. Now, `hq` will be set to `h1 hp` which is $h1(hp) : Q$.
 3. $\neg Q$ is the SAME as the function type $Q \rightarrow \bot$, which means we can apply a term (or function) $h2 : \neg Q$ to $hq$. This gives us a proof of the empty type $\bot$, which is the same as the goal which concludes the proof.
+
+## Lecture 3 - Implementing Basic Number Theory
+
+**Definition.** Let $n,d : \mathbb{N}$. We say that
+- $d$ divides $n$ (shortened to $d \mid n$) if $\exists k : \mathbb{N} \ (n = k \cdot d)$.
+- $n$ is prime (technically irreducible) if $n > 1$ and $d \mid n \rightarrow d = 1 \vee d = n$.
+
+**Example.** All variables are naturals. Prove the following as precisely as possible:
+- Let $d \mid n$ and $d \mid m$. Show $d \mid n + m$.
+- If $p$ is a prime number then $p^{2}$ is not.
+
+*Solutions (natural language).* We will prove it using the definitions.
+- First, we know $\exists k_{1} : \mathbb{N} \ (n = k_{1} \cdot d)$ and $\exists k_{2} : \mathbb{N} \ (m = k_{2} \cdot d)$. Therefore, $n+m=k_{1}\cdot d + k_{2}\cdot d = (k_{1}+k_{2})\cdot d$ by distrubution. Now, we can nominate $k=(k_{1}+k_{2})$ in the equation $\exists k : \mathbb{N} \ (n+m = k \cdot d)$, which works as we've already shown.
+- Note that $p^{2}=p \cdot p$. Now, let $d \mid p^{2}$. We aim to show $d = p \neq p^{2}$ works. First, notice that $1 < p$ implies that $p < p^{2}$ since $p$ is not a unit element. Now, nominate $k = p$ in the equation $\exists k : \mathbb{N} \ (p^{2} = k \cdot d)$ . This comes out to $p^{2} = p \cdot p$, which we knew was already true. $\Box$
+
+*Solution (LEAN).* Observe the following codes:
+- The code below does what we want it to. The `rcases` introduce the variables $k_{1}$ and $k_{2}$ from our natural language proof, we nominate $k_{1} + k_{2}$ as desired, and then we show the two sides are equal.
+```lean
+theorem example1 (hn : d ∣ n) (hm : d ∣ m) : d ∣ n + m := by
+  rcases hn with ⟨k, hk⟩
+  rcases hm with ⟨l, hl⟩
+  use k + l
+  rw [hk, hl]
+  exact Eq.symm (Nat.mul_add d k l)
+  ```
+- Similar in nature. See examples3.lean, `theorem example2`. $\Box$
+
+Note that you can use `exact?` to lookup how to prove a specific statement. You can create sublemmas to do so.
+
+Let us remind ourselves of proof by induction, an axiom of the naturals.
+
+**Axiom Schema of Induction.** Let $\varphi(n)$ be a formula on $\mathbb{N}$. Then $\varphi$ holds for all $n : \mathbb{N}$ if 
+- $\varphi(0)$ holds; and
+- $\varphi(n) \implies \varphi(n+1)$.
+
+**Example.** Prove the classic Gaussian sum $\sum_{k=0}^{n} k = \frac{n(n+1)}{2}$ for all $n : \mathbb{N}$.
+
+*Solution (natural language).* Let $\varphi(n)$ be the statement $\sum_{k=0}^{n} k = \frac{n(n+1)}{2}$. Let us induct on $n : \mathbb{N}$.
+- For $n=0$, we have $\sum_{k=0}^{0} k = 0 = \frac{0(0+1)}{2}$ so $\varphi(0)$ holds.
+- Assume $\varphi(n)$ holds. Notice that $\sum_{k=0}^{n+1} k = \sum_{k=0}^{n} k + (n + 1) = \frac{n(n+1)}{2}+ (n + 1)$ by the induction hypothesis. This eventually simplifies to $\frac{(n+1)((n+1)+1)}{2}$ by virtue of trivial manipulations. $\Box$
+
+*Solution (LEAN).* First, note that `Finset.range n` is the set $\lbrace 0, 1, \dots, n-1\rbrace$ and `∑ i ∈ Finset.range n, i` is $\sum_{i=0}^{n-1} i$. This can be checked by the `#check` command as usual. Now, here is the full code. 
+```lean
+theorem Gauss_sum (n : ℕ) : ∑ i ∈ Finset.range (n + 1), i = n * (n + 1) / 2 := by
+  induction n with
+  | zero => rfl
+  | succ n ih =>
+      calc
+        ∑ i ∈ Finset.range (n + 1 + 1), i
+          = (∑ i ∈ Finset.range (n + 1), i) + (n + 1) := by
+            exact Finset.sum_range_succ (fun x ↦ x) (n + 1)
+        _ = n * (n + 1) / 2 + (n + 1) := by rw [ih]
+        _ = (n * (n + 1) + (n + 1) * 2) / 2 := by
+          refine (Nat.add_mul_div_right (n * (n + 1)) (n + 1) ?_).symm
+          exact Nat.succ_pos 1
+        _ = (n + 2) * (n + 1) / 2 := by
+              rw[Nat.mul_comm (n +1) 2, ← Nat.add_mul]
+        _ = (n + 1) * (n + 2) / 2 := by
+          rw[Nat.mul_comm (n + 2) (n + 1)]
+```
+First, we have the summation have finite set for $n+1$ since it always ends a position beforehand. Now, we have the `zero` case, which LEAN can instantly realize are equal by `rfl`. 
+
+In the inductive case (or successor case), we are going to use `calc` which lets us compute manipulations quickly. The `_` indicates a new step of the calculation is starting. Another new tactic is `refine`, which allows you to use a theorem for which we do not know all the hypothesis are true. These hypothesis that we have not yet shown become goals. The rest is just annoying manipulations. $\Box$
+
+**Theorem (Strong Induction).** $\varphi(n)$ holds on all $n : \mathbb{N}$ if
+- $\varphi(0)$ holds; and
+- $\forall n : \mathbb{N}$, $(\forall m \leq n \ \varphi(m)) \implies \varphi(n+1)$.
+
+*Proof (natural language).* Let $\psi(n) := \forall m \leq n \ \varphi(m)$. Here are four observations to make:
+
+1. $\psi(0) \iff \varphi(0)$
+2. $\psi(n) \implies \varphi(n)$
+3. $\forall n : \mathbb{N} \ \psi(n) \implies \forall n : \mathbb{N} \ \varphi(n)$
+4. $(\psi(n) \rightarrow \varphi(n+1)) \implies (\psi(n) \rightarrow \psi(n+1))$.
+
+As for the proofs:
+
+1. Trivial (by definition, since the only $m \leq 0$ is $m=0$). 
+2. Also trivial (also by definition, since $n \leq n$).
+3. Also trivial (by #2).
+4. The left hand side implies $\forall m \leq n \ \varphi(m)$ and $\varphi(n+1)$ whenever $\psi(n)$, so $\forall m \leq (n+1) \ \varphi(m)$ equals $\psi(n+1)$ holds.
+
+Our theorem statement can be rewritten as:
+
+$\varphi(n)$ holds on all $n : \mathbb{N}$ if
+
+- $\varphi(0)$ holds; and
+- $\forall n : \mathbb{N} \ (\psi(n) \implies \varphi(n+1))$.
+
+Now, let us assume that 
+
+- $\varphi(0)$ holds; and
+- $\forall n : \mathbb{N} \ (\psi(n) \implies \varphi(n+1))$.
+
+(aka the restated theorem hypothesis)
+
+Our goal is now to prove that $\forall n : \mathbb{N} \ \varphi(n)$. Let us induct on $n$ over $\psi$.
+
+- Observation #1 and the first hypothesis of the theorem grants us that $\psi(0)$ holds.
+- Assume $\psi(n)$. The left hand side of observation #4 is true by the second hypothesis of the theorem. Therefore, we obtain $(\psi(n) \rightarrow \psi(n+1))$, and since we assumed $\psi(n)$ we get $\psi(n+1)$ as desired.
+
+Because we proved $\forall n : \mathbb{N} \ \psi(n)$, observation #3 grants us $\forall n : \mathbb{N} \ \varphi(n)$. $\Box$
+
+*Proof (LEAN).* First, define the relevant notation
+
+```lean
+variable (P : ℕ → Prop)
+
+def complete_induction : Prop :=  (P 0 ∧ (∀ n, (∀ m, m ≤ n → P m) → P (n + 1))) → ∀ n, P n
+
+def Q (P : ℕ → Prop) (n : ℕ) : Prop := ∀ m, m ≤ n → P m
+```
+
+Note we have $P$ for $\varphi$ and $Q$ for $\psi$. It is certainly possible to prove the below, but we'll just `sorry` them away since we are lazy. These will be left as exercises.
+
+```lean
+lemma lemma0 : P 0 → Q P 0 := by
+  sorry
+
+lemma lemma1 (n : ℕ) : Q P n -> P n := by
+  sorry
+
+lemma lemma2 (n : ℕ) : (Q P n -> P (n + 1)) -> (Q P n -> Q P (n + 1)) := by
+  sorry
+
+lemma lemma3 : (∀ n, Q P n) -> ∀ n, P (n) := by
+  sorry
+```
+
+These were the four observations we made. From here, the theorem is proven almost exactly like we said above.
+
+```lean
+theorem induction_implies_complete_induction : complete_induction P := by
+  intro ⟨hP0, hQP⟩
+  have hQall : ∀ n, Q P n := by
+    intro n
+    induction n with
+    | zero =>
+        exact lemma0 P hP0
+    | succ n ih =>
+        exact lemma2 P n (hQP n) ih
+  intro n
+  exact lemma3 P hQall n
+end
+```
+
+This concludes the proof. $\Box$
+
+Now, consider induction on a finite set. Classically, finite sets can be well-ordered. So, we can describe a finite set as functions $f : I \rightarrow \mathbb{N}$, or maybe even $f : I \rightarrow X$ for type $X$. We would use the induction axiom schema on the size of $I$. Likewise, our $I$ can have elements of a general type $T$. Therefore, inducting on the index set itself is not too different than the finite set. We will now consider inducting over subsets of finite sets.
+
+**Theorem (Finite-Set Induction).** Consider the proposition $\varphi$. We say that $\varphi(I)$ for all finite sets $I$ if 
+
+- $\varphi(\varnothing)$ holds; and
+- If $\varphi(I)$ then $\varphi(I \cup \lbrace x \rbrace)$ holds for $x : T$.
+
+*Proof.* Exercise. $\Box$
+
+Briefly note that we are fine to use "$I \cup \lbrace x \rbrace$" and even the terminology "set" here despite the type theory underlying this because the distinction does not matter here and LEAN handles it correctly anyways.
