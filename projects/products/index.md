@@ -24,6 +24,14 @@ See the project [here](https://github.com/VJZ-Corp/Toolboxal).
 
 To be added
 
+### Bayesian Network
+
+To be added
+
+### String Rule Investigator
+
+To be added
+
 ### Mathdash Contest 1
 
 Unrated, [here.](https://mathdash.com/contest/boolean-alg-1)
