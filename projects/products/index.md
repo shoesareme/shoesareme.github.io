@@ -6,7 +6,7 @@ To be added
 
 Roles: Lead Programmer and Designer
 
-To be added
+See the project [here](https://github.com/shoesareme/Minesweeper-CS-Final-Project/tree/main).
 
 ## Immune System Fighting Simulator
 
