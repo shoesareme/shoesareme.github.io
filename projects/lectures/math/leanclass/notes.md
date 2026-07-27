@@ -5,7 +5,7 @@ title: LEAN Notes
 
 # Notes on LEAN
 
-> Version: 4
+> Version: 6
 >
 > Notes are by Jason Zhang. This follow's Euler Circle's LEAN class. 
 >
@@ -313,3 +313,111 @@ Now, consider induction on a finite set. Classically, finite sets can be well-or
 *Proof.* Exercise. $\Box$
 
 Briefly note that we are fine to use "$I \cup \lbrace x \rbrace$" and even the terminology "set" here despite the type theory underlying this because the distinction does not matter here and LEAN handles it correctly anyways.
+
+## Lecture 4 - More LEAN Stuff
+
+> Author's Note: Sorry I skipped all the prime number stuff since it did not have much to do with LEAN.
+
+Consider the LEAN syntax below:
+
+```lean
+def fac : ℕ → ℕ
+  | 0 => 1
+  | n + 1 => (n + 1) * fac n
+```
+
+This `def` also defines a type, just this type does not correspond to a proposition. There is a plethora of more complicated syntax to create more complicated types (like inductive types). Here is an example of `if else`
+
+```lean
+def collatz : ℕ → ℕ := fun n => if Even n then n / 2 else 3 * n + 1
+```
+
+The else is *required*. Look at the syntax below:
+
+```lean
+variable {α : Type} (P Q : α → Prop) {x : α}
+
+def A (P : α → Prop) := { x : α | P x } --subtype of α defined by P
+```
+
+First, to make our lives easier, we defined some global variables with the `variable` declaration. Then, we create a subtype which is from the type `α` to `Prop`. For a concrete example,
+
+```lean
+def Primes : Set ℕ := {p : ℕ | p.Prime}
+```
+
+Note that `Set ℕ` is type of all "subsets" of `ℕ`. Now, this is really the type of functions `ℕ → Prop`. Specifically, we say that "$n \in \mathrm{Primes}$" if $\mathrm{Primes}(n)$ is true.
+
+## Lecture 5 - More on Types
+
+How can we manage various different types and relations together?
+
+**Problem.** Consider the function $f : \mathbb{R} \to \mathbb{R}$ as well as constants $n : \mathbb{N}$ and $x : \mathbb{Q}$. How can we evaluate $f(\frac{x+1}{n})$ in LEAN? There are a few problems.
+
+1. What is $\frac{1}{n}$? Normally, $\frac{1}{n} =0$ as treated by LEAN. However, we can force LEAN to interpret it in $\mathbb{Q}$ rather than $\mathbb{N}$, which is the solution.
+2. The function $f$ wants $\mathbb{R}$ not $\mathbb{Q}$. We can either do $(x+\frac{1}{n}) : \mathbb{R}$ or $(x : \mathbb{R}) + (\frac{1}{n} : \mathbb{R}) : \mathbb{R}$.
+
+Now, we give our naive solution to the aformentioned problem.
+
+*Solution (Naive).* We can evaluate it with the following expression:
+
+$$
+f\left(\frac{x+1}{n}\right) = f\left((x : \mathbb{R}) + \left( \left(\frac{1}{n} : \mathbb{Q} \right) : \mathbb{R} \right) : \mathbb{R}\right). \ \ \Box
+$$
+
+But, this was painful, wasn't it? Luckily, LEAN has something called *coercions*. These are canonical ways to implement adjusting or casting of types. 
+
+*Solution.* We can simply write $f(x + \frac{1}{n} : \mathbb{R})$ and LEAN will handle the rest by coercions. $\Box$
+
+What the "canonical way of casting" means is that, when converting between types, other humans have already decided how the conversion should work (according to the way we are used to in regular mathematics) and made it so LEAN does it correctly automatically for you. Nice! 
+
+Note that LEAN has a symbol for when type casting is at work, the `↑`. You might see `1/↑n : ℚ` which might mean that we are pushing `n : ℕ` to `↑n : ℚ`.
+
+Now, a new question arises. How do we define a new type?
+
+We can build new types from types we already know (e.g., $\mathbb{N}, \mathbb{Q}, \mathbb{R}, \dots$). We also have the type theoretic notions of sum and product to combine types. We can combine types to define new structures.
+
+What if we want all points in $\mathbb{R}^{2}$ where $x < y$? Well, let $x:\mathbb{R}$ and $y:\mathbb{R}$. This is enough to define $\mathbb{R}^{2} = \mathbb{R} \times \mathbb{R}$ by the product type. But, this doesn't define our additional condition. Luckily, we can add in a third type which is a proposition such that $p : x < y$. In other words, $p$ certifies that $x < y$. Let us call this structure $H$.
+
+Notice that there is a canonical mapping $H \to \mathbb{R}^{2}$. Specifically, it maps as so:
+
+$$
+(x,y,p) \mapsto (x,y).
+$$
+
+In other words, we are going to define our own canonical mapping. We want to tell LEAN to automatically convert $z : H$ to $z : \mathbb{R}^{2}$. Notice that our notion of canonical is a bit arbritary. Theoretically, there are many mappings from $H \to \mathbb{R}^{2}$. For example, $(x,y,p) \mapsto (y,x)$. However, from an aesthetics POV, our "canonical" mapping just makes the most sense. 
+
+In LEAN, we move as the following:
+
+```lean
+structure HalfPlane where
+  x : ℝ
+  y : ℝ
+  xlty : x < y
+```
+
+Now, let us define a point. 
+
+```lean
+def point : HalfPlane where
+  x := 0
+  y := 2
+  xlty := by norm_num
+```
+
+Really, notice how everything is a type! We can use `point.x` to get the `x` coordinate back.
+
+Now, let us move towards making the coercion.
+
+```lean
+def HalfPlane.toProd (pt : HalfPlane) : ℝ × ℝ := (pt.x, pt.y) 
+```
+
+This will be the mapping that is the underlying behind the coercion. The actual coercion itself has some special notation attached to it:
+
+```lean
+instance : Coe.HalfPlane (ℝ × ℝ) where
+  coe := HalfPlane.toProd
+```
+
+We are defining an `instance` of type coercion from $H$ to $\mathbb{R}^{2}$. 
