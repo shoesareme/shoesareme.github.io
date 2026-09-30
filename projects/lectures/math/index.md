@@ -34,6 +34,14 @@ In the materials.
 
 These comprise very short one-off lectures that were written purely for fun. Alternatively, there are also notes that I've written for studying and classes.
 
+### LEAN Notes (8/2026)
+
+See [here](https://shoesareme.github.io/projects/lectures/math/leanclass/notes).
+
+#### References
+
+From class.
+
 ### Multivariable Calculus Chapter 16 Notes (11/14/2025)
 
 This was a unit of multivariable calculus concerning double and triple integrals.
