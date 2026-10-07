@@ -1,8 +1,8 @@
 # Blog Hub
 
-## Most Recent Blog: Blog 5 - An Actual Math Paper
+## Most Recent Blog: Blog 6 - On College Math and the Cultures of Mathematics
 
-Click [here](https://shoesareme.github.io/blog/blog5)
+Click [here](https://shoesareme.github.io/blog/blog6)
 
 ## Archive
 
