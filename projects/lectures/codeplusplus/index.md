@@ -1,6 +1,8 @@
 # Code++ Lectures
 
-Code++ is a club dedicated to learning advanced computer science topics. In the 2025-2026 school year, I serve the role of Vice-President within the club.
+Code++ is a club dedicated to learning advanced computer science topics. In the 2025-2026 school year, I serve the role of Vice-President within the club. In the 2026-2027 school year, I serve the role of President.
+
+Please note that not all lectures are included on here, and some lectures are intended to span multiple days.
 
 ## Busy Beaver Introduction (5/1/2026)
 

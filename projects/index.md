@@ -12,7 +12,7 @@ These are either full slide presentations or lecture notes that I've written. Th
 
 ## Research
 
-To be added.
+[Click here my research!](https://shoesareme.github.io/projects/research/)
 
 ## Miscellaneous
 
