@@ -21,3 +21,9 @@ Click [here](https://shoesareme.github.io/blog/blog2).
 ## Blog 1 - About Me (9/13/2025)
 
 Click [here](https://shoesareme.github.io/blog/blog1).
+
+## Recovered Blogs
+
+Below is a compilation of blogs that are from the old website. I am working to recover more of these / preserve the original styling.
+
+Find them [here](https://shoesareme.github.io/archive/).
