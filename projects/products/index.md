@@ -24,6 +24,12 @@ See the project [here](https://github.com/VJZ-Corp/Toolboxal).
 
 To be added
 
+### LEAN Linear Algebra Derivation
+
+This was the product of my final project in the LEAN summer class 2026 for Euler Circle. I worked on this with David Kharitonashvili.
+
+Currently, it is just a standalone file. Perhaps I will write something more about this in the future. [See it here](https://github.com/shoesareme/lean_course_summer_26/blob/project-david-k-jason-z/LectureNotes/project/project.lean)
+
 ### Bayesian Network
 
 To be added
