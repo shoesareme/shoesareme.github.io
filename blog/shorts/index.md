@@ -17,37 +17,51 @@ Exercises:
 ## An Abuse of Notation that Works (10/10/2026)
 
 Consider the equation provided by 
+
 $$
 f - \int f = 1.
 $$
+
 How can we solve this? Well, physicists will tell you that mathematical rigor is for nerds, and here that might actually be true. We can solve this with ease ignoring the rigor. Let us factor $$f$$ out of the expression to achieve $$\displaystyle f(1 - \int) = 1$$. This $$\int$$ is not to be confused with $$\int 1 \mathrm{d}x$$, which evaluates to something. The $$\int$$ is just an integral symbol by itself. Now, divide both sides by $$\displaystyle (1 - \int)$$. We get $$\displaystyle f = \frac{1}{1 - \int} \cdot 1$$. Recall the geometric series sum formula, which states that $$\frac{1}{1-r} = 1 + r + r^{2} + \cdots$$. Thus,
+
 $$
 f = \left(1 + \int + \int^2 + \cdots \right) \cdot 1
 $$
+
 which is the same as
+
 $$
 f = \left(1 + \int + \iint + \cdots \right) \cdot 1 = 1 + \int 1 + \iint 1 + \cdots,
 $$
+
 which upon evaluating the integral gives us
+
 $$
 f = 1 + x + \frac{x^2}{2} + \cdots = \sum_{k=0}^{\infty} \frac{x^{k}}{k!} = e^{x}.
 $$
+
 This is the answer, and you can verify this from the original equation. 
 
 ## Evaluating $$e^{\mathrm{d}/\mathrm{d}x}$$ (10/5/2026)
 
 Consider $$e^{\frac{\mathrm{d}}{\mathrm{d}x}}$$. Does this even mean anything? Well, consider taking the Maclaurin series for $$e^{x}$$.
+
 $$
 e^{\frac{\mathrm{d}}{\mathrm{d}x}} = \sum{k=0}^{\infty} \frac{1}{k!} \left(\frac{\mathrm{d}}{\mathrm{d}x}\right)^{k} = 1 + \frac{\mathrm{d}}{\mathrm{d}x} + \frac{1}{2!} \left(\frac{\mathrm{d}}{\mathrm{d}x}\right)^{2} + \cdots.
 $$
+
 This looks a bit promising. Consider trying to evaluate $$e^{\frac{\mathrm{d}}{\mathrm{d}x}}f(x)$$ for some sufficiently nice function $$f : \mathbb{R} \to \mathbb{R}$$.
+
 $$
 e^{\frac{\mathrm{d}}{\mathrm{d}x}}f(x) = \sum{k=0}^{\infty} \left(\frac{\mathrm{d}}{\mathrm{d}x}\right)^{k}\frac{f(x)}{k!}.
 $$
+
 The RHS also looks like a Taylor series, and in fact we can interpret it as one. It can be seen as a taylor series for $$f(x+1)$$, thus we arrive to our conclusion that
+
 $$
 e^{\frac{\mathrm{d}}{\mathrm{d}x}}f(x) = f(x+1).
 $$
+
 Cool! 
 
 ## (In)Direct Proofs (9/23/2026)
