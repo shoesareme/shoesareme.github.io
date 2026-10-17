@@ -85,8 +85,10 @@ The definition of $$\mathbb{N}$$ is circular in nature: The definition of $$\mat
 **Theorem.** $$1+1=2$$.
 
 *Proof.* Let us use the axiomization of Peano Arithmetic by Robinson + Induction Schema to prove this. The structure of $$\mathbb{N}$$ is defined by the operation $$S$$ (the successor operation). By definition, we obtain:
+
 1. $$1 = S(0)$$,
 2. $$2 = S(1)$$.
+
 Now, consider the equation $$1+1=1+1$$ which is true by the refl equality axiom ($$\forall x (x=x)$$). Substitute in $$1=S(0)$$ to obtain $$1+1=1+S(0)$$, and by axiom 4 ($$\forall x,y (x+S(y)=S(x+y))$$) we obtain $$1+1=S(1+0)$$. From axiom 3 ($$\forall x (x+0=x)$$), we have $$1+1=S(1)$$. Finally, substitute in $$2=S(1)$$ to obtain $$1+1=2$$ as desired. $$\Box$$.
 
 ## Prove that $$0.\bar{9} = 1$$ (6/30/2026)
@@ -158,7 +160,7 @@ To be specific on Curry's Paradox:
 Notably, this is immensly powerful when translated through the aformentioned Curry-Howard Correspondence.
 Most importantly, the reason why Curry's paradox shows that simple untyped lambda calculus is inconsistent is the same reason why Turing Complete systems are inconsistent\* by Curry Howard Isomorphism.
 
--# \*Technicalities apply.
+(\*Technicalities apply.)
 
 Thus, by Curry Howard Isomorphism, Java would translate to an inconsistent logic.
 
