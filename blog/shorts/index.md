@@ -6,12 +6,12 @@ Note: These were originally hosted on a different website, and I moved them over
 
 ## A Standard Peano Model (10/16/2026)
 
-According to the Peano Axioms, $$E = {1,e,e^2,e^3,\dots}$$ could be a perfectly valid model for $$\mathbb{N}$$. Consider taking $$S(n)=n \cdot e$$ where $$\cdot$$ is the usual multiplication under $$\mathbb{R}$$, along with $$0_E = 1$$.
+According to the Peano Axioms, $$E = \{1,e,e^2,e^3,\dots\}$$ could be a perfectly valid model for $$\mathbb{N}$$. Consider taking $$S(n)=n \cdot e$$ where $$\cdot$$ is the usual multiplication under $$\mathbb{R}$$, along with $$0_E = 1$$.
 
 Exercises:
 1. Find a valid form for multiplication over $$E$$. Hint: $$\ln e^{A} = A$$.
 2. Checking the Robinson axioms is easy. Verify the induction schema instead.
-3. Argue that, philosophically speaking, this implies that creating a full axiom list to uniquely pin down $$\mathbb{N} = {0,1,2,\dots}$$ as we understand it is not possible (your argument should be based on Russell's critique of the Peano axioms, not the incompleteness theorems, although you are free to reference them).
+3. Argue that, philosophically speaking, this implies that creating a full axiom list to uniquely pin down $$\mathbb{N} = \{0,1,2,\dots\}$$ as we understand it is not possible (your argument should be based on Russell's critique of the Peano axioms, not the incompleteness theorems, although you are free to reference them).
 
 
 ## An Abuse of Notation that Works (10/10/2026)
