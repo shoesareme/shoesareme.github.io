@@ -47,13 +47,13 @@ This is the answer, and you can verify this from the original equation.
 Consider $$e^{\frac{\mathrm{d}}{\mathrm{d}x}}$$. Does this even mean anything? Well, consider taking the Maclaurin series for $$e^{x}$$.
 
 $$
-e^{\frac{\mathrm{d}}{\mathrm{d}x}} = \sum{k=0}^{\infty} \frac{1}{k!} \left(\frac{\mathrm{d}}{\mathrm{d}x}\right)^{k} = 1 + \frac{\mathrm{d}}{\mathrm{d}x} + \frac{1}{2!} \left(\frac{\mathrm{d}}{\mathrm{d}x}\right)^{2} + \cdots.
+e^{\frac{\mathrm{d}}{\mathrm{d}x}} = \sum_{k=0}^{\infty} \frac{1}{k!} \left(\frac{\mathrm{d}}{\mathrm{d}x}\right)^{k} = 1 + \frac{\mathrm{d}}{\mathrm{d}x} + \frac{1}{2!} \left(\frac{\mathrm{d}}{\mathrm{d}x}\right)^{2} + \cdots.
 $$
 
 This looks a bit promising. Consider trying to evaluate $$e^{\frac{\mathrm{d}}{\mathrm{d}x}}f(x)$$ for some sufficiently nice function $$f : \mathbb{R} \to \mathbb{R}$$.
 
 $$
-e^{\frac{\mathrm{d}}{\mathrm{d}x}}f(x) = \sum{k=0}^{\infty} \left(\frac{\mathrm{d}}{\mathrm{d}x}\right)^{k}\frac{f(x)}{k!}.
+e^{\frac{\mathrm{d}}{\mathrm{d}x}}f(x) = \sum_{k=0}^{\infty} \left(\frac{\mathrm{d}}{\mathrm{d}x}\right)^{k}\frac{f(x)}{k!}.
 $$
 
 The RHS also looks like a Taylor series, and in fact we can interpret it as one. It can be seen as a taylor series for $$f(x+1)$$, thus we arrive to our conclusion that
@@ -87,7 +87,7 @@ The definition of $$\mathbb{N}$$ is circular in nature: The definition of $$\mat
 *Proof.* Let us use the axiomization of Peano Arithmetic by Robinson + Induction Schema to prove this. The structure of $$\mathbb{N}$$ is defined by the operation $$S$$ (the successor operation). By definition, we obtain:
 1. $$1 = S(0)$$,
 2. $$2 = S(1)$$.
-Now, consider the equation $$1+1=1+1$$ which is true by the refl equality axiom ($$\forall x (x=x)$$). Substitute in $$1=S(0)$$ to obtain $$1+1=1+S(0)$$, and by axiom 4 ($$\forall x,y (x+S(y)=S(x+y))$$) we obtain $$1+1=S(1+0)$$. From axiom 3 ($$\forall x (x+0=x)$$), we have $$1+1=S(1)$$. Finally, substitute in $$2=S(1)$$ to obtain $$1+1=2$$ as desired. $$\box$$.
+Now, consider the equation $$1+1=1+1$$ which is true by the refl equality axiom ($$\forall x (x=x)$$). Substitute in $$1=S(0)$$ to obtain $$1+1=1+S(0)$$, and by axiom 4 ($$\forall x,y (x+S(y)=S(x+y))$$) we obtain $$1+1=S(1+0)$$. From axiom 3 ($$\forall x (x+0=x)$$), we have $$1+1=S(1)$$. Finally, substitute in $$2=S(1)$$ to obtain $$1+1=2$$ as desired. $$\Box$$.
 
 ## Prove that $$0.\bar{9} = 1$$ (6/30/2026)
 
@@ -103,11 +103,11 @@ We consider the Cauchy Sequence $$x_{i}$$.
 
 **Lemma.** The $$\langle x_{i} : i \in \mathbb{Z}^{+} \rangle$$ is indeed a Cauchy Sequence.
 
-*Proof.* For any $$n,m \in \mathbb{Z}^{+}$$ with $$m<n$$, the absolute value $$\|x_{n} - x_{m}\| \leq 10^{1 - m}$$ which can be pushed below any arbitary $$\varepsilon$$ tolerance. $$\box$$
+*Proof.* For any $$n,m \in \mathbb{Z}^{+}$$ with $$m<n$$, the absolute value $$\|x_{n} - x_{m}\| \leq 10^{1 - m}$$ which can be pushed below any arbitary $$\varepsilon$$ tolerance. $$\Box$$
 
 **Theorem.** $$0.\bar{9} = 1$$.
 
-*Proof.* We just want to show that $$\lim_{n \to \infty} x_{n} = 1$$. That is, the sequence converges to $$1$$. Notice that $$\|x_{n} - 1\| = 10^{-n} < \frac{1}{n} < \varepsilon$$ whenever $$n > \frac{1}{\varepsilon}$$, showing the sequence converges as desired. $$\box$$
+*Proof.* We just want to show that $$\lim_{n \to \infty} x_{n} = 1$$. That is, the sequence converges to $$1$$. Notice that $$\|x_{n} - 1\| = 10^{-n} < \frac{1}{n} < \varepsilon$$ whenever $$n > \frac{1}{\varepsilon}$$, showing the sequence converges as desired. $$\Box$$
 
 ## Mathematical Backrooms (6/29/2026)
 
