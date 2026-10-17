@@ -6,6 +6,10 @@
 
 Click [here](https://shoesareme.github.io/blog/blog6)
 
+## Mathematical Shorts
+
+[Here](https://shoesareme.github.io/blog/shorts) are a bunch of mini-blogs (named "shorts" after YouTube shorts and similar platforms).
+
 ## Archive
 
 Here are most of my previous blogs: [archive](https://shoesareme.github.io/blog/archive).
