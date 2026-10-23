@@ -34,6 +34,12 @@ In the materials.
 
 These comprise very short one-off lectures that were written purely for fun. Alternatively, there are also notes that I've written for studying and classes.
 
+### Advanced Mathematical Techniques Class Notes (Ongoing)
+
+A collection of notes concerning important techniques for physics and applications. Work in progress.
+
+See [here](https://www.overleaf.com/read/vwbzsydmfhnc#8fbbae).
+
 ### LEAN Notes (8/2026)
 
 See [here](https://shoesareme.github.io/projects/lectures/math/leanclass/notes).
