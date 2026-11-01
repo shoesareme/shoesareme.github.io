@@ -32,7 +32,7 @@ In the materials.
 
 ## Shorts and Lecture Notes
 
-These comprise very short one-off lectures that were written purely for fun. Alternatively, there are also notes that I've written for studying and classes.
+These comprise relatively shorter one-off lectures that were written purely for fun. Alternatively, there are also notes that I've written for studying and classes.
 
 ### Advanced Mathematical Techniques Class Notes (Ongoing)
 
