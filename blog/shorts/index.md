@@ -234,8 +234,6 @@ Essentially, when it comes to whether you believe in the well-ordering theorem o
 
 ## Constructivism (5/16/2026)
 
-I suppose I'll be the substitute fact for today.
-
 At the turn of the 20th century, a new and radical idea was brewing among mathematicians who rejected many of the established analysis and principles by the mainstream.
 
 I am of course referring to constructive mathematics (sometimes known as "intuitionistic" although there is a subtle difference). Constructive mathematics was and is a new emerging paradigm that redefines what math is and what truth means. It is not a preference, or just a different way of doing things. It is a radically new ideology on what is true within mathematics. It is currently being pushed by category theorists and computer scientists alike.
