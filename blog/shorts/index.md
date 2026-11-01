@@ -4,6 +4,32 @@ Here is a list of mathematical "shorts" that I have written throughout the years
 
 Note: These were originally hosted on a different website, and I moved them over here. As such, some of the formatting might seem off.
 
+## $$\lambda$$-Calculus Domain Equation (10/31/2026)
+
+Consider the domain equation provided by
+
+$$
+\mathbb{U} \cong \mathbb{U}^{\mathbb{U}}.
+$$
+
+This is of course, forbidden by Cantor's Theorem (with the exception of $$\mathbb{U} \cong \{\ast\}$$, but this is trivial and uninteresting). However, it is seemingly needed to describe the very rich theory of the untyped $$\lambda$$-calculus. The functions within the $$\lambda$$-calculus take themselves as input and output, which is where our domain equation comes from (recall that the set of all functions $$S \to S$$ is equivalent to $$S^{S}$$). This obviously presents itself as a problem, we are studying a very real and unique structure that seemingly cannot exist in a nontrivial way. The breakthrough comes through with Scott's $$D^{\infty}$$ model, where it satisfies 
+
+$$
+D \cong [D \to D]
+$$
+
+in the sense that $$[D \to D]$$ is a certain restriction that only concerns itself with "continuous" functions. Of course, other objects such as partial combinatory algebras also satisfy analogs of $$\mathbb{U} \cong \mathbb{U}^{\mathbb{U}}$$. This is closely related to some of my current research.
+
+## More $$\frac{1}{1-x} = 1 + x + x^{2} + \cdots$$ business (10/25/2026)
+
+Provided the inverse exist and the sum converge, for the matrix $$A$$ we have 
+
+$$
+\displaystyle (I - A)^{-1} = \sum_{n=0}^{\infty} A^{n} = I + A + A^{2} + \cdots,
+$$ 
+
+which should be intuitvely obvious. In particular, this is another form of the classic $$\frac{1}{1-x} = 1 + x + x^{2} + \cdots$$. The sum converges provided the magnitude of all eigenvalues of $$A$$ are $$<1$$. This is of course the analog of the radius of convergence of the original equation being $$|x| < 1$$.
+
 ## A Standard Peano Model (10/16/2026)
 
 According to the Peano Axioms, $$E = \{1,e,e^2,e^3,\dots\}$$ could be a perfectly valid model for $$\mathbb{N}$$. Consider taking $$S(n)=n \cdot e$$ where $$\cdot$$ is the usual multiplication under $$\mathbb{R}$$, along with $$0_E = 1$$.
