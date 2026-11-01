@@ -28,7 +28,7 @@ $$
 \displaystyle (I - A)^{-1} = \sum_{n=0}^{\infty} A^{n} = I + A + A^{2} + \cdots,
 $$ 
 
-which should be intuitvely obvious. In particular, this is another form of the classic $$\frac{1}{1-x} = 1 + x + x^{2} + \cdots$$. The sum converges provided the magnitude of all eigenvalues of $$A$$ are $$<1$$. This is of course the analog of the radius of convergence of the original equation being $$|x| < 1$$.
+which should be intuitvely obvious. In particular, this is another form of the classic $$\frac{1}{1-x} = 1 + x + x^{2} + \cdots$$. The sum converges provided the magnitude of all eigenvalues of $$A$$ are $$<1$$. This is of course the analog of the radius of convergence of the original equation being $$\|x\| < 1$$.
 
 ## A Standard Peano Model (10/16/2026)
 
