@@ -12,7 +12,7 @@ An introductory lecture to Turing Machines and the Busy Beaver problem.
 
 ### References 
 
-- Parts adatped from [https://wiki.bbchallenge.org/wiki/Main_Page](https://wiki.bbchallenge.org/wiki/Main_Page).
+- Parts adapted from [https://wiki.bbchallenge.org/wiki/Main_Page](https://wiki.bbchallenge.org/wiki/Main_Page).
 
 ## P vs. NP Overview (2/27/2026)
 
