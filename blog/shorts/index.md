@@ -206,7 +206,7 @@ One step further are the ultrafinitists. They (roughly) claim that "sufficiently
 
 If this sounds completely absurd to you, good. However, maybe the following argument will make it sound slightly less crazy:
 
-If you were to ask some ultrafinitists whether $$2$$ exists, they would answer yes without hesitation. Ask them whether $$2^2$$ exists, and it would also be almost immediately yes. Ask $$2^3$$, and you get some noticeable delay before the yes. Ask for $$2^4$$, and you get quite some delay before the yes. Now, if you ask for $$2^100$$, you'll certainly get a "yes", but only after $$2^99$$ times longer than it took to answer yes to $$2$$. Good luck waiting that long! 
+If you were to ask some ultrafinitists whether $$2$$ exists, they would answer yes without hesitation. Ask them whether $$2^2$$ exists, and it would also be almost immediately yes. Ask $$2^3$$, and you get some noticeable delay before the yes. Ask for $$2^4$$, and you get quite some delay before the yes. Now, if you ask for $$2^{100}$$, you'll certainly get a "yes", but only after $$2^{99}$$ times longer than it took to answer yes to $$2$$. Good luck waiting that long! 
 
 ## Well-Ordering Paradoxes (5/17/2026)
 
