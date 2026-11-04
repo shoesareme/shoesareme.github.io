@@ -1,26 +1,43 @@
 # shoesareme.github.io
 
-## Links
+Hi! I'm Jason Zhang. I'm currently in High School (TJHSST Class of 2027). My main interests are mathematical logic (set theory, model theory, etc.) and theoretical computer science (computability theory, algorithms, automated reasoning/ML, etc.). I'm starting to explore fields such as category theory and type theory.
 
-Here is a hub of links for this website.
+## [Lectures](https://shoesareme.github.io/projects/lectures/)
 
-- [Works](https://shoesareme.github.io/projects/): A collection of all my projects including lectures, papers, etc.
-- [Blog](https://shoesareme.github.io/blog/): A blog where I discuss my life and some random math facts.
+All of my lectures and notes for topics ranging from mathematics to computer science can be found [here](https://shoesareme.github.io/projects/lectures/).
 
-## About Me
+## [Blog](https://shoesareme.github.io/blog/)
 
-My name is Jason Zhang and I am interested in mathematical logic. Contact me at teammcpro3@gmail.com.
+My personal blog can be found [here](https://shoesareme.github.io/blog/), as well as some shorter mathematical facts that I post more often.
 
-My full about me page is [here](https://shoesareme.github.io/aboutme).
+## [Research](https://shoesareme.github.io/projects/research/)
 
-## News
+The abstracts and links to my research can be found [here](https://shoesareme.github.io/projects/research/).
 
-Here are some cool updates!
+## Selected Works
 
-### Latest News - N/A
+Here are some of my best works!
 
-N/A.
+### Nonstandard Analysis (Expository Paper / Lecture)
 
-### Archive
+This was the culmination of a months long course at Euler Circle where one indepedently wrote an expository paper and presentation (with some general guidance provided) on some advanced mathematics topic. The following is meant as an introduction to the foundations of the transfer principle in nonstandard analysis. 
 
-An archive of all the past news can be found [here](https://shoesareme.github.io/news).
+[Video Talk](https://www.youtube.com/watch?v=gzIqN4hdtGM)
+
+[Slides](https://shoesareme.github.io/projects/lectures/math/nsa/slides.pdf)
+
+[Paper](https://shoesareme.github.io/projects/lectures/math/nsa/paper.pdf)
+
+<iframe src="https://shoesareme.github.io/projects/lectures/math/nsa/paper.pdf" width="100%" height="600px"></iframe>
+
+### Infinitary Combinatorics (Lecture)
+
+The materials found here were for a guest lecture at a TJVMT SARML session on 8/7/2025. The topic is the subject of combinatorial set theory and the relevant background needed to understand some of the theorems.
+
+[Slides](https://shoesareme.github.io/projects/lectures/math/infinitarycombo/slides.pdf)
+
+[PDF (Short)](https://shoesareme.github.io/projects/lectures/math/infinitarycombo/short.pdf)
+
+[PDF (Long)](https://shoesareme.github.io/projects/lectures/math/infinitarycombo/long.pdf)
+
+<iframe src="https://shoesareme.github.io/projects/lectures/math/infinitarycombo/long.pdf" width="100%" height="600px"></iframe>
