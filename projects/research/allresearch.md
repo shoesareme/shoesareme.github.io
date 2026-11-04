@@ -4,7 +4,7 @@ A list of all the public research I've done can be here.
 
 ## Math Research
 
-[An Expansion on Infinite Multisets and M-Cardinality](https://shoesareme.github.io/projects/research/multisets)
+[An Expansion on Infinite Multisets and M-Cardinality (Under Journal Review)](https://shoesareme.github.io/projects/research/multisets)
 
 [Candidates of $$\omega_{1}$$-Analogues to $$\omega^{*}$$ (UNPUBLISHED)](https://shoesareme.github.io/projects/research/omegaonereverse)
 
