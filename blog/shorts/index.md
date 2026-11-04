@@ -4,6 +4,19 @@ Here is a list of mathematical "shorts" that I have written throughout the years
 
 Note: These were originally hosted on a different website, and I moved them over here. As such, some of the formatting might seem off.
 
+## A Fun Logic Puzzle! (11/2/2026)
+
+Logic Puzzle for fun!
+
+Imagine there are two students, one who believes the correct thing and tells his beliefs accurately, and another who always believes the incorrect thing but lies about what he believes. For example, if you asked `Is 2+2=4?` to both, they would both answer `Yes`. Is it possible to find out who is who using only yes or no questions? If so, what's the smallest number of questions needed?
+
+<details>
+  <summary>Solution</summary>
+  <p>The solution is yes, and only one question is needed. You simply ask, `Are you the student who believes in the truth and tells the truth?` The student who does will obviously say `Yes`. The other student would answer `No`. First, they believe in the incorrect thing, which is that they are indeed the truth telling student. But, he'll lie about his belief and say that he isn't. Follow up question: how do you reconcile this fact with the fact that the double negation of a proposition is equivalent to the original? In other words, $$\neg \neg P = P$$?</p>
+</details>
+
+<br>
+
 ## $$\lambda$$-Calculus Domain Equation (10/31/2026)
 
 Consider the domain equation provided by
