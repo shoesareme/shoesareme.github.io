@@ -6,4 +6,8 @@ We investigate an alternative perspective to the cardinality of multisets introd
 
 ## Preprint Link
 
-TBD.
+Please email me for the preprint. 
+
+## Topics / Tags
+
+Mathematics (multisets, infinity, cardinality)

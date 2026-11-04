@@ -14,8 +14,8 @@ Zhang, Jason, 2025, "Python Scripts for Landsat-8 Land Surface Temperature Data 
 
 ## Conference Slides
 
-To be posted.
+As of now, please email me for the slides. They will be posted here at a later date.
 
 ## Topics/Tags
 
-Applied CS
+Applied Computer Science (Remote Sensing, Machine Learning)
