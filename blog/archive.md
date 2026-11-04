@@ -2,6 +2,10 @@
 
 There's probably a better way to do this, but this suffices for now.
 
+## Blog 6 - On College Math and the Cultures of Mathematics (10/6/2026)
+
+Click [here](https://shoesareme.github.io/blog/blog6)
+
 ## Blog 5 - An Actual Math Paper (4/4/2026)
 
 Click [here](https://shoesareme.github.io/blog/blog5)
@@ -22,7 +26,7 @@ Click [here](https://shoesareme.github.io/blog/blog2).
 
 Click [here](https://shoesareme.github.io/blog/blog1).
 
-## Recovered Blogs
+## Recovered Blogs (2024 and prior)
 
 Below is a compilation of blogs that are from the old website. I am working to recover more of these / preserve the original styling.
 

@@ -26,4 +26,4 @@ Perhaps I will revisit this problem from a new angle in the future, I am already
 
 ## Musings
 
-Before starting the project, I had learned quite a bit about computer science (a field that I am interested in). So I wanted to apply this knowledge to a problem that is important. This project taught me a lot about the research and presentation process. I am grateful to Dr. Bo Zhao for guiding me through this project.
+Before starting the project, I had learned quite a bit about computer science (a field that I am interested in). So I wanted to apply this knowledge to a problem that is important. This project taught me a lot about the research and presentation process. The process and presentation was a bit stressful, but the end result was rewarding. I am grateful to everybody who encouraged me throughout this process.

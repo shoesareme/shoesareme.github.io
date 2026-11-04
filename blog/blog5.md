@@ -9,7 +9,7 @@ A few days ago, I submitted my first math paper for review. I haven't heard back
 > Rejected :(. Will continue trying once school dies down.
 
 > Update 6/17/2026:
-> I've submitted again around 2 weeks ago. Still waiting for a response! 
+> I've submitted again to a different journal around 2 weeks ago. Still waiting for a response! 
 
 ## Brief Overview of the Paper
 
@@ -17,7 +17,7 @@ The paper itself is an exploration into an interesting set theory idea. The birt
 
 ## Quick Reflection
 
-I still am quite proud of what I was able to write, especially since I don't have formal higher mathematical training yet. This also highlights the major difference between my previous publications/work. This latest work was completely kickstarted and managed by me, from start to finish. In a previous work, I had a mentor which guided me through the process, even if the final work was written by me. For this one, there was no guidance from a professional. There was, however, a lot of experience I had gathered throughout the years (more on this later). 
+I still am quite proud of what I was able to write, especially since I don't have formal higher mathematical training yet. This also highlights the major difference between my previous publications/work. This latest work was completely kickstarted and managed by me, from start to finish. There was no guidance from a professional; I worked on it completely by myself. There was, however, a lot of experience I had gathered throughout the years (more on this later). 
 
 Another major difference is that this is almost purely theoretical. It finds itself little to no application in any field. Maybe one day there will be something cool that applies it, but I doubt it. Anyways, this makes the style of the paper very different. I have to somehow build a cohesive story without the easy "I need XYZ so it can be applied somewhere". Of course, this wasn't too much of a challenge as my work is indeed motivated by actual factors. But still a major difference to highlight.
 
@@ -27,7 +27,7 @@ Regardless of reject/accept, I would probably point to this as my "high school c
 
 ## The Journey
 
-I started this paper last year in December 2025. However, this is certainly NOT where the journey to publish started. The exact starting point is a bit debatable, but I think the most arguable starting point is almost exactly two years ago (spring break 2024).
+I started this particular draft last year in December 2025. However, this is certainly NOT where the journey to publish started. The exact starting point is a bit debatable, but I think the most arguable starting point is almost exactly two years ago (spring break 2024).
 
 There were many reasons why I wanted to start writing an actual math paper. Obviously, there was external motivation, but a large part of it genuinely came from my own interests. I already had some prior experience to what math papers should look like. However, I was still not well equipped for what I was going to face. It is a bit embarrasing to think about now. It was shocking how little I knew back then, which is a funny thing to say considering I still know next to nothing today. But the knowledge I had back then was somehow even less. Just to demonstrate how little I knew, I didn't even use $$\LaTeX$$ to make the thing. I am not going into the contents of the paper for my own sanity, although maybe one day I'll overcome this fear and share out.
 
