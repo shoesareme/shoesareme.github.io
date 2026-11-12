@@ -13,7 +13,7 @@ $$
 can be seen as a generalization of the modus ponens law (technicalities apply). In logic, we have rule of inference called modus ponens which states: 
 
 1. $$p$$
-2 $$p \rightarrow q$$
+2. $$p \rightarrow q$$
 
 is enough to infer $q$. In the same vein, $$P(q \mid p)$$ can be seen as $$p \rightarrow q$$ and $$P(p)$$ is... $$p$$ (for hopefully obvious reasons). Now, the right hand side $$P(p \cap q)$$ tells us $$p \wedge q$$ (i.e., "$$p$$ and $$q$$"). This fact is also inferable from the above logical deductions (we use an "AND-introduction" to do this). But, this might appear unsatisfying as it isn't just $$P(q)$$. The reason for this is that deductive logic largely does not care about where $q$ came from. If $$q$$ is true, then $$p \rightarrow q$$ is true for ANY $$p$$ (check a truth table if you don't believe me). However, probability wants to disambiguate between $$p$$ and $$\neg p$$.
 
