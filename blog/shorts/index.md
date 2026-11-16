@@ -288,7 +288,7 @@ $$
 
 The notation $$H_{k}(X)$$ is a vector space called the *homology group* of $$X$$.
 
-Now, let us consider the de Rham differential $$\mathrm{d}$$. The intuitive way to think about these differential forms is that they are the differential elements in integration. The $\mathrm{d}x$ term serves the purpose of integrating over a $$1$$-chain. The exterior product $$\mathrm{d}x \wedge \mathrm{d}y$$ is an area-differential element. Note that $$\mathrm{d}$$ satisfies specific properties. For example, the differential form is a linear mapping between $$k$$-chain vector spaces to $$k+1$$-chain vector spaces. More notably, we can define a hole once again to be a form with zero derivative that is not the derivative of anything else. Once again, we consider the quotient 
+Now, let us consider the de Rham differential $$\mathrm{d}$$. The intuitive way to think about these differential forms is that they are the differential elements in integration. The $$\mathrm{d}x$$ term serves the purpose of integrating over a $$1$$-chain. The exterior product $$\mathrm{d}x \wedge \mathrm{d}y$$ is an area-differential element. Note that $$\mathrm{d}$$ satisfies specific properties. For example, the differential form is a linear mapping between $$k$$-chain vector spaces to $$k+1$$-chain vector spaces. More notably, we can define a hole once again to be a form with zero derivative that is not the derivative of anything else. Once again, we consider the quotient 
 
 $$
 \frac{\{\omega : \mathrm{d} \omega = 0\}}{\{\omega : \mathrm{d} \omega^{\prime} = \omega\}} = H^{k}(X).
