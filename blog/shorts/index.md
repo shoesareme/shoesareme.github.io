@@ -274,6 +274,36 @@ The rejection of the above principles have led to some classically outrageous re
 
 If you are interested and up for the challenge, I recommend reading Bauer's "Five Stages of Accepting Constructive Mathematics". The first few pages (minus one or two paragraphs) should be intelligible to anyone with basic knowledge on proofs.
 
+## Generalized Stokes Basics (3/2/2026)
+
+> Note: This is *heavily* simplified so that a Multivariable Calculus / Linear Algebra student could understand it.
+
+We can (informally) define a $$k$$-chain as a "deformation" of the unit $$k$$-dimensional cube to any given shape. It can be thought of as a generalization of the surface/curve. For example, a $$1$$-chain is a curve. now, each set of $$k$$-chains forms a vector space. 
+
+We will denote the boundary of a given $$k$$-chain $$M$$ to be $$\partial M$$ which is a $$(k - 1)$$-chain. Specifically, $$\partial$$ is a linear mapping from $$k$$-chains to $$k-1$$-chains. Now, for some given space $$C$$, we define a *hole* to be a chain with zero boundary that is not the boundary of anything else. Specifically, this can be formalized by the quotient set: 
+
+$$
+\frac{\{c : \partial c = 0\}}{\{c : \partial c^{\prime} = c\}} = H_{k}(X).
+$$ 
+
+The notation $$H_{k}(X)$$ is a vector space called the *homology group* of $$X$$.
+
+Now, let us consider the de Rham differential $$\mathrm{d}$$. The intuitive way to think about these differential forms is that they are the differential elements in integration. The $\mathrm{d}x$ term serves the purpose of integrating over a $$1$$-chain. The exterior product $$\mathrm{d}x \wedge \mathrm{d}y$$ is an area-differential element. Note that $$\mathrm{d}$$ satisfies specific properties. For example, the differential form is a linear mapping between $$k$$-chain vector spaces to $$k+1$$-chain vector spaces. More notably, we can define a hole once again to be a form with zero derivative that is not the derivative of anything else. Once again, we consider the quotient 
+
+$$
+\frac{\{\omega : \mathrm{d} \omega = 0\}}{\{\omega : \mathrm{d} \omega^{\prime} = \omega\}} = H^{k}(X).
+$$ 
+
+This the cohomolgy group.
+
+One naturally starts to think if there is some connection between the homology group and the cohomology group. Indeed, there is. By de Rham's theorem, they are isomorphic. Perhaps more interestingly, we have the result 
+
+$$
+\int_{\partial M} \omega = \int_{M} \mathrm{d}\omega,
+$$ 
+
+indicating that the derivative is the opposite of the boundary.
+
 ## To be continued!
 
 I am working on archiving more of these here. Stay tuned!
