@@ -4,6 +4,19 @@ Here is a list of mathematical "shorts" that I have written throughout the years
 
 Note: These were originally hosted on a different website, and I moved them over here. As such, some of the formatting might seem off.
 
+## Generalized Boolean Algebras (11/23/2026)
+
+Consider all the positive factors of $$30$$, which are $$1,2,3,5,6,10,15,30$$. Imagine, for some reason, that we desired to notate the factors and operations of the factors in the following way:
+
+- $$\top = 30$$
+- $$\bot = 1$$
+- $$a \wedge b = \gcd (a,b)$$
+- $$a \vee b  = \operatorname{lcm} (a,b)$$
+- $$\neg a = \frac{30}{a}$$.
+
+Notice that laws commonly associated with Boolean Algebras hold. For instance, consider the absorption identity $$p \vee \top = p$$. One can check with a truth table that this holds over the classical Boolean Algebra. Notice that in our case, $$p \vee \top = \operatorname{lcm} (p,30) = 30$$ since $$p$$ divides $$30$$. In fact, even the De' Morgan laws hold. It turns out, the factors of $$30$$ do indeed form a Boolean Algebra, even though it has more than two elements. Finding all such naturals that accomplish this is left as an exercise. 
+
+
 ## Probability and Modus Ponens (11/11/2026)
 
 The derivation provided by 
